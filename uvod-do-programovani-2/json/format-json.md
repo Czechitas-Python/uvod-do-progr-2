@@ -35,3 +35,17 @@ hodiny = {'po': 8, 'ut': 7, 'st': 6, 'ct': 7, 'pa': 8}
 with open('hodiny.json', mode='w', encoding='utf-8') as soubor:
     json.dump(hodiny, soubor)
 ```
+
+#### Diakritika v JSON
+
+Funkce `json.dump()` ve výchozím nastavení překóduje non-ASCI znaky do jejich číselného kódu:
+
+```py
+import json
+data = {"řeřicha": "Česká Třebová"}
+
+with open("rericha.json", mode="w", encoding="utf-8") as vystupni_soubor:
+    json.dump(data, vystupni_soubor)  # soubor obsahuje {"\u0159e\u0159icha": "\u010cesk\u00e1 T\u0159ebov\u00e1"}
+```
+
+Pokud chceš mít výstupní JSON v plném kódování UTF-8, lze toho dosáhnout volitelným parametrem `ensure_ascii=False`.
