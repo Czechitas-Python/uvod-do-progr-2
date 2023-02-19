@@ -1,20 +1,20 @@
 with open("battles.tsv", encoding="utf-8") as soubor:
     radky = soubor.readlines()
 
-SL_UTOCNIK_PRVNI = 5
-SL_UTOCNIK_POSLEDNI = 8
+SL_VYSLEDEK = 13
+SL_SILA_UTOCNICI = 17
+SL_SILA_OBRANCI = 18
+SL_VELITEL_UTOCNICI = 19
+SL_VELITEL_OBRANCI = 20
 
-utocnici = {}
+velitele = []
 for radek in radky[1:]:
     radek = radek.split("\t")
-    for utocnik in radek[SL_UTOCNIK_PRVNI:SL_UTOCNIK_POSLEDNI + 1]:
-        if utocnik != "":
-            utocnici[utocnik] = utocnici.get(utocnik, 0) + 1
-print(utocnici)
-
-import pandas
-data = pandas.read_csv("battles.tsv", sep="\t")
-
-data = pandas.concat([data["attacker_1"], data["attacker_2"], data["attacker_3"], data["attacker_4"]])
-data = data.value_counts()
-print(data)
+    if radek[SL_SILA_UTOCNICI] != "" and radek[SL_SILA_OBRANCI] != "":
+        if float(radek[SL_SILA_UTOCNICI]) > float(radek[SL_SILA_OBRANCI]) and radek[SL_VYSLEDEK] == "loss":
+            radek_velitele = radek[SL_VELITEL_OBRANCI].split(", ")
+            velitele = velitele + radek_velitele
+        elif float(radek[SL_SILA_UTOCNICI]) < float(radek[SL_SILA_OBRANCI]) and radek[SL_VYSLEDEK] == "won":
+            radek_velitele = radek[SL_VELITEL_UTOCNICI].split(", ")
+            velitele = velitele + radek_velitele
+print(velitele)

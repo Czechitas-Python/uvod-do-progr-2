@@ -1,4 +1,4 @@
-## Počet útočníků
+## Útočící rody
 
 Nejprve je potřeba načíst soubor. K tomu můžeme využít metodu `readlines()`.
 
@@ -115,48 +115,4 @@ for radek in radky[1:]:
         if utocnik != "":
             utocnici[utocnik] = utocnici.get(utocnik, 0) + 1
 print(utocnici)
-```
-
-### Využití modulu CSV reader
-
-```py
-with open('names.csv', newline='') as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-        print(row['first_name'], row['last_name'])
-```
-
-### Využití modulu Pandas
-
-```py
-    """
-    Nyní řeším, zda mám velikost obou armád.
-    Pokud ano, převedu obě velikosti na číslo a porovnám, zda
-    v bitvě vyhrála početně slabší armáda
-    """
-    if len(radek[17]) > 0 and len(radek[18]):
-        UTOCNIK_size = float(radek[17])
-        defender_size = float(radek[18])
-        # Pokud byl útočník početně slabší a vyhrál, uložím si název bitvy
-        if UTOCNIK_size < defender_size and radek[13] == "win":
-            mensi_armada_vyhrala.append(radek[0])
-        # Pokud byl útočník početně silnější a prohrál, uložím si název bitvy
-        if UTOCNIK_size > defender_size and radek[13] == "loss":
-            mensi_armada_vyhrala.append(radek[0])
-print(utocnici)
-print(mensi_armada_vyhrala)
-```
-
-```py
-utocnici = {}
-for radek in radky:
-    # Alternativní řešení - využijeme vnořený cyklus
-    for utocnik in radek[5:9]:
-        if utocnik != "":
-            if utocnik in utocnici:
-                utocnici[utocnik] = utocnici[utocnik] + 1
-            else:
-                utocnici[utocnik] = 1
-print(utocnici)
-
 ```
