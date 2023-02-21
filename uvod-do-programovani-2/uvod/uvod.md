@@ -20,7 +20,7 @@ Každá proměnná má nějaký datový typ. Datových typů jsme poznali celkem
 |------------|--------------------|-----------------|
 | celé číslo |  `int` | `10`, `- 100` |
 | desetinné číslo | `float`  | `5.0`, `-8.6`, `130.4582`
-| řetězec | `string` | `"Kolik třešní, tolik višní"`
+| řetězec | `str` | `"Kolik třešní, tolik višní"`
 | pravdivostní hodnota | `bool` | `True`, `False`
 | seznam | `list` | `[1, True, "Test", 3.3]`, `[1, 4, 8, 13]`
 
