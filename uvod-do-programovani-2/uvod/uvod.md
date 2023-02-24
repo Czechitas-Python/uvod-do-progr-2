@@ -65,7 +65,7 @@ total_price = price_per_ticket * number_of_tickets
 print("Cena " + str(number_of_tickets) + " lístků na hru " + play + " je celkem " + str(total_price) + " Kč.")
 ```
 
-Relativně novou vlastností Pythonu je možnost využívání _formátovaných řetězců_ neboli f-stringů. Před uvozovky vložíme písmeno `f`. Poté můžeme vkládat do složených závorek přímo názvy proměnných, nemusíme tedy používat znaménka `+`. Navíc za nás Python automaticky obstará i převod na `string`, není tedy třeba používat funkci `str()`.
+Relativně novou vlastností Pythonu je možnost využívání _formátovaných řetězců_ neboli f-stringů. Před uvozovky vložíme písmeno `f`. Poté můžeme vkládat do složených závorek přímo názvy proměnných, nemusíme tedy používat znaménka `+`. Navíc za nás Python automaticky obstará i převod na `str`, není tedy třeba používat funkci `str()`.
 
 ```py
 print(f"Cena {number_of_tickets} lístků na hru {play} je celkem {total_price} Kč.")
