@@ -3,7 +3,7 @@ title: Transformace dat
 demand: 4
 ---
 
-Stáhněte si soubor [words.txt](assets/words.txt) a zpracujte z něj výstupní soubor ve formátu JSON obsahující slovník. Klíče budou písmena a hodnoty seznamy slov, které začínají tímto písmenem. Pokud na nějaké písmeno žádná slova nezačínají, tak ve výstupu toto písmeno nebude. Seřaďte tyto seznamy podle abecedy. Zajistěte, aby i klíče ve výstupním JSON souboru byly seřazeny a data byla odsazena čtyřmi mezerami pro lepší čitelnost člověkem.
+Stáhněte si soubor [words.txt](assets/words.txt) a zpracujte z něj výstupní soubor ve formátu JSON obsahující slovník. Klíče budou písmena a hodnoty seznamy slov, které začínají písmenem v klíči. Pokud na nějaké písmeno žádná slova nezačínají, tak ve výstupu toto písmeno nebude. Seřaďte tyto seznamy podle abecedy. Zajistěte, aby i klíče ve výstupním JSON souboru byly seřazeny a data byla odsazena čtyřmi mezerami pro lepší čitelnost člověkem.
 
 Vzorový výstup: [output.json](assets/output.json).
 
