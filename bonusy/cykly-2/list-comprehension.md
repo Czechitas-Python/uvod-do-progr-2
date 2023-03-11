@@ -71,7 +71,7 @@ print(prvni)  # [1, 3, 4, 1, 1, 1]
 
 Podmínky slouží k tomu, abychom nějaký kus kódu mohli vykonat jen v případě, že je splněna nějaká podmínka. Doplněním list comprehension o klíčové slovo `if` můžeme ovlivnit, aby se do výsledného seznamu dostaly prvky pouze na základě určité podmínky.
 
-Mějme například seznam uběhnutých kilometrů a chceme z něj jen nenulové hodnoty.
+Mějme například seznam uběhnutých kilometrů a chceme z něj jen nenulové hodnoty. Z délky seznamu pak můžeme snadno zjistit počet dní, kdy jsme trénovali.
 
 ```py
 ubehnuto = [12, 0, 4, 5, 0, 6]
