@@ -44,7 +44,7 @@ Zkusme si nyní spočítat celkový počet prodaných kusů. Vytvoříme si tedy
 ```py
 total_sales = 0
 for key, value in sales.items():
-    print("Knihy", key, "bylo prodáno", hodnota, "výtisků.")
+    print("Knihy", key, "bylo prodáno", value, "výtisků.")
     # Použití f-stringu
     print(f"Knihy {key} bylo prodáno {value} výtisků.")
     total_sales = total_sales + value
