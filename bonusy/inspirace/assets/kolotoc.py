@@ -7,7 +7,7 @@ from typing import List
 HIDDEN_CHAR = '▮'
 
 
-def update_text(hidden_text: List[str], matches: List, guess: str):
+def update_text(hidden_text: List[str], matches: List[int], guess: str) -> str:
     for m in matches:
         hidden_text[m] = guess
 
