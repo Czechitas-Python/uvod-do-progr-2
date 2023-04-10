@@ -14,12 +14,12 @@ def update_text(hidden_text: List[str], matches: List[int], guess: str) -> str:
     return ''.join(hidden_text)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     try:
         with open(sys.argv[1], encoding='utf-8') as f:
             texts = f.readlines()
     except (IndexError, FileNotFoundError):
-        sys.exit(f"Usage: {sys.argv[0]} <input_file>")
+        sys.exit(f'Usage: {sys.argv[0]} <input_file>')
 
     orig_text = random.choice(texts).strip().upper()
     hidden_text = re.sub(r'\w', HIDDEN_CHAR, orig_text)
@@ -28,9 +28,9 @@ if __name__ == "__main__":
     error_msg = ''
     while hidden_text != orig_text:
         try:
-            guess = input(f"{hidden_text} {error_msg}Hádej znak: ").upper()
+            guess = input(f'{hidden_text} {error_msg}Hádej znak: ').upper()
         except KeyboardInterrupt:
-            print("\nUkončuji hru")
+            print('\nUkončuji hru')
             sys.exit(0)
 
         error_msg = ''
