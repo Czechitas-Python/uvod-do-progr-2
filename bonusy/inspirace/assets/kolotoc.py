@@ -1,6 +1,6 @@
-import sys
 import random
 import re
+import sys
 
 from typing import List
 
