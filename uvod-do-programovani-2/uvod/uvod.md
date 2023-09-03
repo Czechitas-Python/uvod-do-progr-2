@@ -42,7 +42,7 @@ Python bere náš vstup jako řetězec a pokud jej násobíme číslem, udělá 
 ```py
 number_of_tickets = input("Kolik si přejete lístků? ")
 price_per_ticket = 345
-# Změníme typ proměnné number_of_tickets z řetězce na číslko
+# Změníme typ proměnné number_of_tickets z řetězce na číslo
 number_of_tickets = int(number_of_tickets)
 total_price = number_of_tickets * price_per_ticket
 print(total_price)
