@@ -14,9 +14,9 @@ Uvažujme například, že naše aplikace má zjistit leteckou společnost podle
 ```py
 flight_number = input("Zadejte číslo letu: ")
 prefix = flight_number[0] + flight_number[1]
-if flight_number == "BA":
+if prefix == "BA":
     company = "British Airways"
-elif flight_number == "LH":
+elif prefix == "LH":
     company = "Lufthansa"
 else:
     company = "Neznámá společnost"

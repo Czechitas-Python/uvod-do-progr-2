@@ -63,8 +63,9 @@ else:
 print(f"Celková cena nákupu je {total_price} Kč.")
 ```
 
- Všimni si, že Python "skočí" do prvního bloku, kde je podmínka splněná. Pokud tedy někdo koupí 10 lístků, Python provede příkazy v prvním bloku a následující ignoruje, i když i u něj by byla podmínka splněná.
+Všimni si, že Python "skočí" do prvního bloku, kde je podmínka splněná. Pokud tedy někdo koupí 10 lístků, Python provede příkazy v prvním bloku a následující ignoruje. To znamená, že ze tří bloků v našem kódu bude vždy spuštěn přesně jeden.
 
+#### Vnořené podmínky
 
 Poslední možností jsou **vnořené podmínky**, tj. podmínky uvnitř podmínek. Uvažujme například dětem nepřístupné divadelní představení. Není-li zájemce nebo zájemkyně o lístek starší třinácti let, je mu vypsán text o nepřístupnosti. Pouze starší zákazníci a zákaznice jsou tázání na počet lístků a při nákupu většího množství lístků může opět získat slevu.
 
@@ -94,4 +95,3 @@ else:
 Všimněte si, že klíčová slova `else` a `elif` jsou vždy zarovnaná stejně jako začátek podmínky, ke které se vztahují.
 
 **Tip:** Pokud potřebuješ změnit odsazení většího množství řádků ve VS Code, všechny je označ a použij klávesu `Tab` (zvýšení odsazení) nebo `Shift+Tab` (snížení odsazení).
-

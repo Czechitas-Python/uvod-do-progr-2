@@ -55,6 +55,11 @@ print(total_price)
 Pokud má náš program dát uživateli nějaký výstup, často v něm musíme kombinovat čísla a texty, spojovat je a převádět. Uvažujme například jednoduchou větu: "Cena 2 lístků na hru Každý má svou pravdu je celkem 690 Kč." V ní máme jako proměnné název hry, počet lístků a cenu. V Pythonu máme možnost využívání _formátovaných řetězců_ neboli f-stringů. Před uvozovky vložíme písmeno `f`. Poté můžeme vkládat do složených závorek přímo názvy proměnných, nemusíme tedy používat znaménka `+` a neprovádíme změny typů proměnných (to si Python zařídí sám).
 
 ```py
+play = "Každý má svou pravdu"
+number_of_tickets = int(input("Kolik si přejete lístků? "))
+price_per_ticket = 345
+total_price = price_per_ticket * number_of_tickets
+
 print(f"Cena {number_of_tickets} lístků na hru {play} je celkem {total_price} Kč.")
 ```
 
