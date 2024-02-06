@@ -1,4 +1,4 @@
-## Nepovinné parametry a klíčové slovo assert
+## Nepovinné parametry a typování
 
 ### Nepovinné parametry
 
