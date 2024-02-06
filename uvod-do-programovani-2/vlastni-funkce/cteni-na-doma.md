@@ -1,4 +1,4 @@
-## Čtení na doma
+## Nepovinné parametry a klíčové slovo assert
 
 ### Nepovinné parametry
 
