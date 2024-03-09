@@ -77,3 +77,6 @@ for key, value in rates.items():
         print(f"1 {key} = {round(rate, 2)}")
 ```
 
+## Cvičení
+
+::exc[excs/faker]
