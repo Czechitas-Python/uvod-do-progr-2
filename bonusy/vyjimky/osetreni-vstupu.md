@@ -1,10 +1,11 @@
-## Různé přístupy k ošetřování vstupů
+## Různé přístupy k ošetřování chyb
 
-Ještě než se pustíme do samotného ošetřování výjimek povíme si něco o ošetřování vstupů programu. Pokud totiž program nemá žádné uživatelské vstupy, nejedná se o moc užitečný program. Takový program by se choval vždy stejně a vypsal by jen to, co jsme mu zadrátovali uvnitř (např. text "Hello world!").
+Ještě než se pustíme do samotného ošetřování výjimek, povíme si něco o ošetřování vstupů programu. Pokud totiž program nemá žádné vstupy "zvenku", není příliš univerzální. Takový program by se choval vždy stejně a vypsal by jen to, co jsme mu zadrátovali uvnitř (např. text "Hello world!").
 
 Důležité je si pod pojmem vstup programu představit mnoho různých věcí, např.:
+
 * Návratovou hodnotu funkce `input()` - vstup textu z klávesnice
-* Parametry programu na příkazové řádce (`sys.argv`)
+* Parametry předané programu přes příkazovou řádku(`sys.argv`)
 * Data z načítaného souboru
 * Data stažená přes internet z API nebo webové stránky
 * Formuláře na webové stránce (viz [xkcd komix](https://xkcd.com/327/))
@@ -13,85 +14,53 @@ Důležité je si pod pojmem vstup programu představit mnoho různých věcí, 
 Všechny tyto vstupy mohou způsobit v našem programu chyby, kterým se vždy musíme snažit předejít. K tomu se používají dva hlavní přístupy.
 
 ### Nejprve otestuj a pak proveď
-Pokud bychom neznali nic jiného a chtěli např. ošetřit, že program je vždy spuštěn alespoň s jedním parametrem na příkazové řádce, uděláme to nějak takto:
+
+Uvažujme, že chceme převést uživatelský vstup na číslo. U tohoto přístupu nejprve ověříme, že vstup obsahuje pouze číslice, a to například s využitím metody `.isdigit()`. Tato metoda vrátí `True`, pokud jsou v řetězci pouze čísla, v opačném případě vrátí `False`. V našem programu tedy řetězec zkontrolujeme a pokud obsahuje jiné znaky než číslice, ukončíme program pomocí funkce `exit()`. Řádek převodem řetězce na číslo bude tedy spuštěn pouze v případě, že řetězec obsahuje pouze čísla a tím pádem probehne korektně.
 
 ```py
 import sys
 
-if len(sys.argv) > 1:
-    print(f"Zadán parametr: {sys.argv[1]}")
+vek = input("Zadej věk: ")
+if not vek.isdigit():
+    print("Je třeba zadat číslo!")
+    sys.exit()
+vek = int(vek)
+if vek > 15:
+    print("Vítej")
 else:
-    print("Zadej parametr na příkazovou řádku!")
+    print("Představení je až od 15 let.")
 ```
 
-```shell
-python program.py
-Zadej parametr na příkazovou řádku!
-```
+Tento přístup se v angličtině označuje slovy *Look Before You Leap (LBYL)*.
 
-```shell
-python program.py PARAMETR
-Zadán parametr: PARAMETR
-```
-
-Teď přichází druhý problém, a to, že chceme, aby parametr byl číslo, protože s ním chceme počítat (např. vypsat číslo o jedničku vyšší). Dá se to provést složenou podmínku, kde budeme zároveň kontrolovat, jestli se parametr skládá z cifer. Použijeme k tomu metodu řetězců [isdigit()](https://docs.python.org/3/library/stdtypes.html#str.isdigit)
-
-```py
-import sys
-
-if len(sys.argv) > 1 and sys.argv[1].isdigit():
-    cislo = int(sys.argv[1])
-    print(f"Zadán parametr: {cislo}")
-    print(f"O jedničku vyšší je: {cislo+1}")
-else:
-    print("Zadej číslo jako parametr na příkazovou řádku!")
-```
-
-```shell
-python program.py PARAMETR
-Zadej číslo jako parametr na příkazovou řádku!
-```
-
-```shell
-python program.py 100
-Zadán parametr: 100
-O jedničku vyšší je: 101
-```
-
-Už se nám to testování před provedením operace trochu komplikuje a to řešíme zatím jen dvě podmínky. V reálném světě je to ještě složitější.
 
 ### Proveď a řeš až problémy
-Proto byl v mnoha programovacích jazycích vytvořen mechanismus obsluhy výjimek. Kromě Pythonu jsou to např. jazyky C++, Java nebo C#.
 
-Slouží nám k tomu nová klíčová slova `try` a `except`. Kus kódu, ve kterém může dojít k chybě obalíme blokem `try`. Za tím to blokem _odchytíme_ příslušnou chybu v bloku `except`.
-
-Předchozí příklad přepíšeme následujícím způsobem:
+Protože provedení všech potřebných kontrol by bylo v řadě případů příliš komplikované, byl v mnoha programovacích jazycích vytvořen mechanismus obsluhy výjimek. Kromě Pythonu jsou to např. jazyky C++, Java nebo C#. Slouží  k tomu nová klíčová slova `try` a `except`. Kus kódu, ve kterém může dojít k chybě, "obalíme" blokem `try`. Za tím to blokem _odchytíme_ příslušnou chybu v bloku `except`. Předchozí příklad přepíšeme následujícím způsobem:
 
 ```python
-import sys
-
 try:
-    print(f"Zadán parametr: {sys.argv[1]}")
-except IndexError:
-    print("Zadej parametr na příkazovou řádku!")
+    vek = input("Zadej věk: ")
+    vek = int(vek) # Zde se pokoušíme o převod
+    if vek > 15:
+        print("Vítej")
+    else:
+        print("Představení je až od 15 let.")
+except ValueError:  # Zde odchytáváme chybu při převodu
+    print("Je třeba zadat číslo!")
 ```
 
-Toto řešení nám odchytává _IndexError_ na seznamu `sys.argv`, tzn. nenapsali jsme na příkazovou řádku potřebný parametr.
+Pokud by program získal vstup, který není možné převést na číslo, funkce `int()` vyvolá chybu `ValueError`. Protože ale máme v programu blok `except ValueError`, nedojde k ukončení programu neošetřenou chybou. Namísto toho program provede kód, který je v bloku `except ValueError` a může dále pokračovat. V případě ošetření výjimky totiž Python předpokládá, že problémy, které mohlo chybné zadání způsobit, jsou již v tomto bloku ošetřeny a program může pokračovat dále.
 
-Pro odchycení chyby při nevhodném přetypování řetězce na číslo pomocí funkce `int()` zařadíme další blok `except`, kde odchytneme jinou chybu:
+Tento přístup se v angličtině označuje slovy *Easier to Ask Forgiveness Than Permission (EAFP)* a za jeho úvodní autorku je označována admirálka [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper).
 
-```python
-import sys
+V reálném životě samozřejmě můžeme kombinovat oba přístupy, tj. známé komplikace ošetříme pomocí předběžných kontrol, ale doplníme i ošetření výjimek pro případ dalších chyb.
 
-try:
-    print(f"Zadán parametr: {sys.argv[1]}")
-    print(f"O jedničku vyšší je: {int(sys.argv[1])+1}")
-except IndexError:
-    print("Zadej parametr na příkazovou řádku!")
-except ValueError:
-    print("Zadej číslo jako parametr na příkazovou řádku!")
-```
+## Cvičení
 
-
-## Cvičení: Výjimky
 ::exc[excs/deleni]
+::exc[excs/knihy]
+
+### Bonusy
+
+::exc[excs/datum]
