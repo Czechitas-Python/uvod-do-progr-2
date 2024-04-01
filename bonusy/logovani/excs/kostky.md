@@ -9,9 +9,8 @@ Na začátku hry uživatel zadá částku, kterou chce vsadit, a jestli sází n
 
 Všechny důležité události v průběhu hry by měly být zaznamenány pomocí logování. To zahrnuje:
 
-- začátek a konec hry,
-- výši sázky a číslo, na které uživatel vsadil,
-- Výsledek hodů a výsledek hry (výhra/prohra).
-
+- začátek a konec hry (úroveň `DEBUG`),
+- výši sázky a číslo, na které uživatel vsadil (úroveň `DEBUG`),
+- výsledek hodů a výsledek hry (výhra/prohra, úroveň `INFO`).
 
 Vytvoř vlastní formát logovacích zpráv, který bude obsahovat časové razítko, úroveň logování, název souboru, číslo řádku, název funkce a logovací zprávu. Nastav logger tak, aby logovací zprávy byly ukládány do souboru `game.log`.
