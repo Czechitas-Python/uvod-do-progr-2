@@ -55,8 +55,8 @@ try:
 
     if vek < 0:
         raise ValueError("Věk nesmí být záporný.")
-    
-    if vek > 15:
+
+    if vek >= 15:
         print("Vítej")
     else:
         print("Představení je až od 15 let.")
