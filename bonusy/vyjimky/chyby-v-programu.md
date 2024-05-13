@@ -2,13 +2,13 @@
 
 Mnohokrát jsme se již setkali s tím, že náš program neudělal, co jsme si mysleli, a skončil s chybovou hláškou. V tuto chvíli je nejdůležitější nepanikařit a v klidu si přečíst co nám Python interpret říká. Drtivá většina základních chyb nejsou žádné záludnosti a Python interpret nám často přímo radí, jak chybu opravit. Důležité je nemít z těchto chyb špatný pocit. Programování je často neustálé zkoušení různých pokusů dokud to nebude dělat to, co chceme.
 
-Chybové hlášky jsou taky ta lepší varianta chyby. Pokud nám ji Python vypíše a skončí, tak jistě víme, že je něco špatně. Mnohem hůř se hledají chyby v programu, který Python interpret vyhodnotí jako syntakticky a sémanticky správný, ale ve skutečnosti vůbec nedělá to co si myslíme, že má dělat.
+Chybové hlášky jsou taky ta lepší varianta chyby. Pokud nám ji Python vypíše a skončí, tak jistě víme, že je něco špatně. Mnohem hůř se hledají chyby v programu, který Python interpret vyhodnotí jako syntakticky a sémanticky správný, ale ve skutečnosti vůbec nedělá to, co si myslíme, že má dělat.
 
 V ostatních programovacích jazycích můžete narazit na obdobné chyby, jaké si popíšeme níže. Jazyky se ale liší v tom, na které situace reagovat vypsáním chyby a které jen "mlčky" přejdou. Pokud bychom například chtěli přečíst hodnotu seznamu s příliš vysokým indexem, Python zobrazí chybu `IndexError`. JavaScript by ale v obdobné situaci (čtení hodnoty z pole s příliš vysokým indexem) vrátil hodnotu `undefined` a program by pokračoval. To na jednu stranu může znít lákavě, na druhou stranu se program může v určité situaci chovat nekorektně a pokud není chyba odhalena během vývoje a testování, můžou na ni narazit až uživatelé a uživatelky našeho programu.
 
 ### Syntaktické chyby
 
-První chybou, kterou zmíníme, je syntaktická chyba, tj. porušení "gramatiky" programovacího jazyka. V případě syntatické chyby se program ani nespustí.
+První chybou, kterou zmíníme, je syntaktická chyba, tj. porušení "gramatiky" programovacího jazyka. V případě syntaktické chyby se program ani nespustí.
 
 ```py
 vek = int(input("Zadej věk: "))
@@ -65,9 +65,9 @@ Níže je výpis chyby.
 TypeError: '>' not supported between instances of 'str' and 'int'
 ```
 
-Program se ale spustil a vypsal dotaz na věk, chyba se projevila až v podmínce. To je typické chování tzv. interpretovaných jazyků. V případě interpretovaných jazyků je program čtený (a převáděný do jazyka nižší úrovně, který je více srozumitelný pro počítač) řádek po řádku a Python tedy na chybu narazí až na řádku 2. Na prvním řádku o žádné chybě zatím neví. 
+Program se ale spustil a vypsal dotaz na věk, chyba se projevila až v podmínce. To je typické chování tzv. interpretovaných jazyků. V případě interpretovaných jazyků je program čtený (a převáděný do jazyka nižší úrovně, který je více srozumitelný pro počítač) řádek po řádku a Python tedy na chybu narazí až na řádku 2. Na prvním řádku o žádné chybě zatím neví.
 
-Vedle interpretovaných jazyků existují tzv. kompilované jazyky. Ty provádějí proces kompilace, který vezme celý program a přeloží jej na jazyk nižší úrovně ještě před spuštěním (procesu se říká kompilace). Kompilované jazyky (např. C\#, Java) by si tedy takové chyby často všimly už při kompilace, protože by jim došlo, že tento řádek provádí neplatnou operaci a tím pádem program nemůže fungovat. Program by tedy nešel spustit, jako tomu bylo u syntaktické chyby.
+Vedle interpretovaných jazyků existují tzv. kompilované jazyky. Ty provádějí proces kompilace, který vezme celý program a přeloží jej na jazyk nižší úrovně ještě před spuštěním. Kompilované jazyky (např. C\#, Java) by si tedy takové chyby často všimly už při kompilaci, protože by jim došlo, že tento řádek provádí neplatnou operaci a tím pádem program nemůže fungovat. Program by tedy nešel spustit, jako tomu bylo u syntaktické chyby.
 
 Podobná situace nastane, pokud chceme pracovat se neznámou proměnnou.
 
@@ -141,9 +141,9 @@ Pokud zadáme na vstup např. *rat*, program skončí chybou.
 KeyError: 'rat'
 ```
 
-V případě objektově orientovaného programování můžeme u objektu narazit na `AttributeError`, a to v případě, že se pokoušíme číst neexistující atribut nebo používat neexistující metodu. Při používání modulů můžeme narazit na `ImportError`, která se objeví např. v případě, že importujeme modul z knihovny, kterou nemáme nainstalovanou. Pokud program překročí maximální povolené mnonžství využité paměti, objeví se chyba `MemoryError`.
+V případě objektově orientovaného programování můžeme u objektu narazit na `AttributeError`, a to v případě, že se pokoušíme číst neexistující atribut nebo používat neexistující metodu. Při používání modulů můžeme narazit na `ImportError`, která se objeví např. v případě, že importujeme modul z knihovny, kterou nemáme nainstalovanou. Pokud program překročí maximální povolené množství využité paměti, objeví se chyba `MemoryError`.
 
-Specifická chyba, která se využívá například při testování, souvisí s klíčovým slovem `assert`. Klíčové slovo `assert` může být využito např. pro testování funkce. Například pokud je funkce `is_odd` naprogramovaná špatně, může vrace `True` pro sudá čísla namísto pro lichá. Python neví, že toto je chyba, ale můžeme využít test, který ověří, že např. pro číslo 3 vrací funkce hodnotu `True`.
+Specifická chyba, která se využívá například při testování, souvisí s klíčovým slovem `assert`. Klíčové slovo `assert` může být využito např. pro testování funkce. Například pokud je funkce `is_odd` naprogramovaná špatně, může vracet `True` pro sudá čísla namísto pro lichá. Python neví, že toto je chyba, ale můžeme využít test, který ověří, že např. pro číslo 3 vrací funkce hodnotu `True`.
 
 ```py
 def is_odd(number):
@@ -151,7 +151,7 @@ def is_odd(number):
 assert is_odd(3) == True
 ```
 
- Pokud funkce vrací něco jiného, program skončí chybou `AssertionError`.
+Pokud funkce vrací něco jiného, program skončí chybou `AssertionError`.
 
 ```py
     assert is_odd(3) == True
