@@ -17,10 +17,12 @@ hodnoty = ['12', '1', '11', '-11']
 
 
 :::solution
-
-1. Uložte si hodnotu na třetí pozici v seznamu do nějaké proměnné.
-1. Převeďte tuto hodnotu na číslo a přičtěte k němu 4. Výsledek uložte do proměnné `vysledek`.
-1. Převeďte hodnotu v proměnné `vysledek` zpět na řetězec a uložte ji na třetí pozici v seznamu `hodnoty`.
-
-Můžete také zkusit vymyslet, jak udělat zápis příkazů co nejúspornější. Dá se dojít až k tomu, že celé řešení bude na jeden řádek.
+```py
+treti_hodnota = hodnoty[2]
+treti_hodnota = int(treti_hodnota)
+vysledek = treti_hodnota + 4
+vysledek = str(vysledek)
+hodnoty[2] = vysledek
+print(hodnoty)
+```
 :::
