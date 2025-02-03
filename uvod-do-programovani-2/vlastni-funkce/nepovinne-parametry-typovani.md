@@ -2,56 +2,42 @@
 
 ### Nepovinné parametry
 
-Na příkladu funkce `round` jsme viděli, že u některých funkcí není třeba vyplňovat všechny parametry. Vraťme se k funkci `get_mark()`. Uvažujme nyní, že studenti mají možnost získat bonusové body (např. za odevzdání úkolů), které se pak připočítávají k bodům z testu.
+Na příkladu funkce `round` jsme viděli, že u některých funkcí není třeba vyplňovat všechny parametry. Vraťme se k funkci `kilometry_na_mile()`. Vedle "klasické" míle existuje ještě námořní míle, která je o něco "delší" (má přesně 1.852 kilometru). Namísto vytvoření nové funkce rozšíříme stávající funkci `kilometry_na_mile()` o nepovinný parametr `namorni`, který bude mít hodnotu `True` anebo `False`. Protože práce s klasickou mílí je mnohem častější než práce s námořní, nastavíme výchozí hodnotu parametru `namorni` na `False`.
 
 ```py
-def get_mark(points, bonus=0):
-    if points + bonus <= 60:
-        mark = 5
-    elif points + bonus <= 70:
-        mark = 4
-    elif points + bonus <= 80:
-        mark = 3
-    elif points + bonus <= 90:
-        mark = 2
+def mile_na_kilometry(mile, namorni=False):
+    if not namorni:
+        return mile * 1.609344
     else:
-        mark = 1
-    return mark
+        return mile * 1.852
+
+london_oxford_km = mile_na_kilometry(59.7)
+belfast_new_york = mile_na_kilometry(2758.13, True)
 ```
 
-Nyní opět zavoláme funkci. Uvažujeme stále možnost jednoho opravného pokusu, počet bonusových bodů zůstává.
-
-```py
-points = int(input("Zadej počet bodů v testu: "))
-bonus = int(input("Zadej počet bonusových bodů: "))
-mark = get_mark(points, bonus)
-if mark == 5:
-    points = int(input("Zadej počet bodů v opravném pokusu: "))
-    mark = get_mark(points, bonus)
-print(f"Výsledná známka je {mark}.")
-```
-
-::exc[excs/hotel]
 
 ### Typování funkcí
 
-Python patří mezi *dynamicky typové jazyky*, což znamená, že při vytvoření proměnné neříkáme, jaký typ hodnoty do ní budeme ukládat. Od verze 3.5 ale podporuje `typing`. Můžeme tedy říct, jaký typ hodnoty by *měla obsahovat* nějaká proměnná, Python to však nekontroluje a neukončí program s chybou, pokud do proměnné vložíme hodnotu jiného typu. Typování ale funguje jako nápověda pro programátory a především vývojová prostředí, která pak umějí vývojářům lépe napovídat při psaní programů a případně je upozornit, pokud plánují do proměnné vložit něco, co tam nepatří.
+Python patří mezi *dynamicky typové jazyky*, což znamená, že při vytvoření proměnné neříkáme, jaký typ hodnoty do ní budeme ukládat. Od verze 3.5 ale podporuje `typing`. Můžeme tedy říct, jaký typ hodnoty by *měla obsahovat* nějaká proměnná, Python to však nekontroluje a neukončí program s chybou, pokud do proměnné vložíme hodnotu jiného typu. Typování ale funguje jako nápověda a především vývojová prostředí, která pak umějí vývojářům a vývojářkám lépe napovídat při psaní programů a případně je upozornit, pokud plánují do proměnné vložit něco, co tam nepatří.
 
-Níže je příklad funkce `get_mark()` s typováním. Typovat můžeme jednotlivé parametry i návratovou hodnotu, jejíž typ je za "šipkou" `->`.
+Níže je příklad funkce `mile_na_kilometry()` s typováním. Typovat můžeme jednotlivé parametry i návratovou hodnotu, jejíž typ je za "šipkou" `->`.
 
 ```py
-def get_mark(points: int, bonus: int = 0) -> int:
-    if points + bonus <= 60:
-        mark = 5
-    elif points + bonus <= 70:
-        mark = 4
-    elif points + bonus <= 80:
-        mark = 3
-    elif points + bonus <= 90:
-        mark = 2
+def mile_na_kilometry(mile: float, namorni: bool = False) -> float:
+    if not namorni:
+        return mile * 1.609344
     else:
-        mark = 1
-    return mark
+        return mile * 1.852
+```
 
-print(get_mark(50, 30))
+Chceme-li, aby nás VS Code na nesprávné používání typů hodnot při volání funkcí upozornila, můžeme do nastavení přidat následující možnost.
+
+```
+"python.analysis.typeCheckingMode": "basic"
+```
+
+Následující volání funkce se pak VS Code určitě líbit nebude.
+
+```py
+belfast_new_york = mile_na_kilometry(2758.13, "nazdar")
 ```

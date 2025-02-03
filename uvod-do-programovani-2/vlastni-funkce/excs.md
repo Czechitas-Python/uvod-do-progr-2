@@ -3,5 +3,5 @@
 ::exc[excs/prevody-jednotek]
 
 ## Bonusy
-::exc[excs/ramecek]
 ::exc[excs/narozeni]
+::exc[excs/ramecek]

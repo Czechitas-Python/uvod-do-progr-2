@@ -1,4 +1,4 @@
-## Klíčové slovo assert
+## Čtení na doma: Klíčové slovo assert
 
 Klíčové slovo `assert` v Pythonu se používá k ověření, zda je daný výraz pravdivý. Pokud je výraz nepravdivý, vyvolá výjimku `AssertionError`. Tento mechanismus je užitečný pro debugování a ověřování, že se kód chová tak, jak má, během vývoje. 
 
