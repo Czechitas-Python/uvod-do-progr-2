@@ -32,14 +32,19 @@ Všimni si ještě dvou dvou věcí:
 - Volání funkce je až **pod její definicí**. Pokud bychom pořadí obrátili, Python vrátí chybu, protože by v čase volání funkci ještě neznal.
 - Za **voláním** funkce musíme vždy uvést **kulaté závorky**. Pokud nepředáváme žádnou hodnotu, zůstanou závorky prázdné.
 
-Upravme naši funkci tak, aby vypsala oslovení, které jí zadáme:
+Upravme naši funkci tak, aby vypsala oslovení na základě jazyka.
 
 ```py
-def greet_user(name):
-    print(f"Ahoj {name}!")
+def greet_user(language_code):
+    if language_code == "cs":
+        print("Ahoj!")
+    elif language_code == "de":
+        print("Hallo!")
+    else:
+        print("Hello!")
 
 
-greet_user("Jirko")
+greet_user("de")
 ```
 
 Naše funkce zatím provedly nějakou akci, ale nevrátily nám žádný **výstup**. Často nám funkce vracejí nějakou hodnotu. Hodnotu, kterou má funkce vrátit, označíme klíčovým slovem `return`. Zkusme si tedy vytvořit funkci, která vrací součet dvou čísel.
