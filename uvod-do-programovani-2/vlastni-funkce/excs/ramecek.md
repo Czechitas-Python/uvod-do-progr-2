@@ -15,3 +15,16 @@ Zadej slovo: ahoj
 Nápověda: `8 * '*' == '********'`
 
 Bonus: Znak, kterým se má text obalit, bude zadán také jako parametr.
+
+:::solution
+```py
+def frame(word, character="*"):
+    print(character * (len(word) + 4))
+    print(f"{character} {word} {character}")
+    print(character * (len(word) + 4))
+
+word = input("Zadej slovo: ")
+frame(word)
+frame(word, "X")
+```
+:::
