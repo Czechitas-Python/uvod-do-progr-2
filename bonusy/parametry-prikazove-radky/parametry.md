@@ -19,7 +19,7 @@ celkem = int(sys.argv[1])
 hodin = celkem // 60
 minut = celkem % 60
 
-print('f{hodin}:{minut}')
+print(f'{hodin}:{minut}')
 ```
 
 To nejdůležitější se děje na druhém řádku, kde používáme hodnotu `sys.argv[1]`. Proměnná `sys.argv` totiž obsahuje seznam všech parametrů, které náš program dostal na příkazovém řádku. Zajímavé je, že tento seznam jako první položku obsahuje samotný název programu. Tedy, pokud bychom si nechali proměnnou `sys.argv` vytisknout na obrazovku, byl by její obsah po spuštění našeho programu
