@@ -37,3 +37,33 @@ vazeni = [
 ```
 
 Projdi seznam pomocí cyklu a pro každé vážení urči (s využitím funkce `spocitej_pokutu()`) výši pokuty. Spočítej celkovou výši pokut za všechna vážení.
+
+:::solution
+```py
+def spocitej_pokutu(pocet_naprav: int, hmotnost: int) -> int:
+    if pocet_naprav == 2:
+        prekroceni = max(0, hmotnost - 18)
+    elif pocet_naprav == 3:
+        prekroceni = max(0, hmotnost - 25)
+    elif pocet_naprav == 4:
+        prekroceni = max(0, hmotnost - 32)
+    elif pocet_naprav == 5:
+        prekroceni = max(0, hmotnost - 18)
+    return 1000 * prekroceni
+
+vazeni = [
+    [4, 33],
+    [2, 19],
+    [3, 29],
+    [3, 27],
+    [5, 53],
+    [5, 51],
+    [2, 20],
+]
+
+pokuty = []
+for radek in vazeni:
+    pokuty.append(spocitej_pokutu(radek[0], radek[1]))
+print(f"Celková hodnota pokut je {sum(pokuty)} Kč.")
+```
+:::

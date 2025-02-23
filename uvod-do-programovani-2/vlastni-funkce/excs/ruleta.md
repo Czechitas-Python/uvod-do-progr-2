@@ -15,3 +15,23 @@ Na začátku funkce `roulette` vyhodnoť, do které řady číslo náleží. Pok
 
 Nezapomeň, že 0 nepatří do žádné z řad a pokud padne, uživatel vždy prohrává.
 
+:::solution
+```py
+def roulette(winning_number, line_number, bet):
+    if winning_number == 0:
+        return 0
+    if winning_number % 3 == 1 and line_number == 1:
+        return bet * 2
+    if winning_number % 3 == 2 and line_number == 2:
+        return bet * 2
+    if winning_number % 3 == 1 and line_number == 3:
+        return bet * 2
+    return 0
+
+print(roulette(0, 1, 1000))
+print(roulette(1, 1, 1000))
+print(roulette(2, 1, 1000))
+print(roulette(3, 1, 1000))
+```
+:::
+
