@@ -31,7 +31,7 @@ zanky krmoě pírhnvo a plísoednho.
 import random
 
 
-def shuffle_word(word):
+def shuffle_word(word: str) -> str:
     if word.endswith(".") or word.endswith(","):
         interpunction = word[-1]
         word = word[:-1]
