@@ -33,3 +33,4 @@ list_hodnoty[-1] = vysledek
 vysledek_hodnoty = " ".join(list_hodnoty)
 print(vysledek_hodnoty)
 ```
+:::
