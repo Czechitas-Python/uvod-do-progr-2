@@ -22,3 +22,23 @@ votes = [
 ```
 
 Můžeš se podívat i na [popis funkce v dokumentaci](https://docs.python.org/3/library/statistics.html#statistics.mode), která obsahuje i příklad s použitím řetězců.
+
+:::solution
+```py
+import statistics
+
+
+votes = [
+    "curling", 
+    "vánoční svařák na trzích", 
+    "vánoční svařák na trzích", 
+    "curling", 
+    "zážitková první pomoc",
+    "curling", 
+    "zážitková první pomoc",
+    "curling",
+    "zážitková první pomoc",
+    ]
+print(statistics.mode(votes))
+```
+:::
