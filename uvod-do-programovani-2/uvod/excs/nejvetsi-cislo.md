@@ -3,4 +3,8 @@ title: Největší prvek v seznamu
 demand: 1
 ---
 
-Napiš kód, který zpracuje seznam čísel a vypíše největší prvek v tomto seznamu (bez použití funkce `max()`).
+```py
+numbers = [23, 4, -8, 16, 15, -42]
+```
+
+Napiš kód, který vypíše největší prvek ze seznamu `numbers` (bez použití funkce `max()`).

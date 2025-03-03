@@ -12,7 +12,7 @@ Uvažujme například, že naše aplikace má zjistit leteckou společnost podle
 * Lufthansa (číslo letu začíná LH).
 
 ```py
-flight_number = input("Zadejte číslo letu: ")
+flight_number = "BA 853"
 prefix = flight_number[0] + flight_number[1]
 if prefix == "BA":
     company = "British Airways"
@@ -31,24 +31,10 @@ Seznamy zapisujeme do hranatých závorek. Do seznamu můžeme vložit libovoln�
 guest_list = ["Jirka", "Klára", "Natálie"]
 ```
 
-Chceme-li přidat jednu položku do seznamu, použijeme funkci `append`.
+Poslední jméno na seznamu získáme opět pomocí hranatých závorek
 
 ```py
-new_guest = input("Zadej jméno dalšího hosta: ")
-guest_list.append(new_guest)
-print(guest_list)
-```
-
-**Námět:** Vypiš uživateli informaci o počtu hostů v seznamu. Můžeš použít funkci `len`.
-
-Chceme-li si ověřit, zda je nějaká hodnota v seznamu, můžeme použít operátor `in`. Pro opačnou otázku, jestli prvek v seznamu není, použijeme `not in`.
-
-```py
-incoming_person = input("Zadej jméno příchozího hosta: ")
-if incoming_person in guest_list:
-    print("Buď vítán(a)!")
-else:
-    print("Bohužel nejsi na seznamu.")
+print(guest_list[-1])
 ```
 
 Sekvence v sobě mohou obsahovat i jiné sekvence. Je to podobné, jako polička na knihy. Ta obsahuje několik knih, každá kniha má několik kapitol, každá kapitola se skládá ze spousty slov a písmen. Níže máš příklad seznamu uvnitř seznamu, který obsahuje jména a známky studentů v nějakém předmětu.

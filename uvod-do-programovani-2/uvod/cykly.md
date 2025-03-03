@@ -29,8 +29,6 @@ average = sum_of_marks / len(school_report)
 print(f"Průměrná známka studenta/studentky je {average}.")
 ```
 
-**Námět:** Uvažujme, že chceme vypočítat průměr předmětů, které jsou důležité pro přihlášku na střední školu technického charakteru, což jsou předměty: český jazyk, anglický jazyk, matematika a fyzika. Jak upravíme předchozí program? Určitě bude vhodné vložit si tyto důležité předměty do seznamu.
-
 Dále můžeme například vypsat všechny předměty, které jsou problematické, tj. ty, ze kterých má známku horší než trojku.
 
 ```py
