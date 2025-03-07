@@ -4,6 +4,8 @@ Naše programy se často musejí *rozhodovat* a některé bloky kódu se spoušt
 
 Uvažujme například divadlo, které dává slevu 10 % při nákupu lístků za celkovou cenu více než 500 Kč. Pokud tedy zákazník zakoupí větší množství lístků, dostaneme informaci o získané slevě. Každý zákazník pak získá informaci o celkové ceně, protože tento blok již není odsazený.
 
+Poznámka: Kód níže se sice v pořádku spustí a vypíše výsledek, ale ten není úplně správně. Přijdeš na to, kde je chyba?
+
 ```py
 number_of_tickets = 4
 price_per_ticket = 190

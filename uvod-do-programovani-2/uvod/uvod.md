@@ -12,9 +12,6 @@ Do proměnných jsme ukládali například vstupy od uživatelů nebo výsledky 
 
 U uživateli a uživatelkami našeho programu můžeme komunikovat s využitím funkce `print()`. Pokud chceme do našeho výstupu vložit informaci z proměnné, můžeme použít formátovaný řetězec. Před uvozovky vložíme písmeno `f`, aby Python věděl, že půjde o formátovaný řetězec. Poté můžeme do složených závorek vkládat názvy proměnných a Python z nich vytvoří souvislý text.
 
-Poznámka: Kód níže se sice v pořádku spustí a vypíše výsledek, ale ten není úplně správně. Přijdeš na to, kde je chyba?
-
-
 ```py
 play = "Každý má svou pravdu"
 number_of_tickets = 3
