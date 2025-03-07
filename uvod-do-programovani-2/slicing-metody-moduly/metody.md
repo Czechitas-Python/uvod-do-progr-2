@@ -87,7 +87,13 @@ guest_list.append("Adéla")
 print(guest_list[-1])
 ```
 
-## Cvičení: Řetězce, metody
+### Cvičení: Řetězce, metody
+
 ::exc[excs/prevod-pismen]
 ::exc[excs/cisla-jako-text]
 ::exc[excs/cisla-v-textu]
+
+#### Bonusy
+
+::exc[excs/odstraneni-duplikatu]
+::exc[excs/rozdeleni-cisel]
