@@ -70,10 +70,22 @@ print('/'.join(['dokumenty', 'dapraha', 'python', 'priklady']))
 ```py
 text = "Kurz vede lektor Marek"
 novy_text = text.replace("Marek", "Martin")
+# Vypíše Kurz vede lektor Martin
 print(novy_text)
 ```
 
-Výsledkem je text: "Kurz vede lektor Martin".
+### Metoda append
+
+Metoda `append()` slouží ke přidání nové položky na konec již existujícího seznamu.
+
+```py
+guest_list = ["Jirka", "Klára", "Natálie"]
+# Vypíše Natálie
+print(guest_list[-1])
+guest_list.append("Adéla")
+# Vypíše Adéla
+print(guest_list[-1])
+```
 
 ## Cvičení: Řetězce, metody
 ::exc[excs/prevod-pismen]
