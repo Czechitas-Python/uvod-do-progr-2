@@ -94,11 +94,14 @@ Jelikož řetězec je opět hodnota jako každá jiná, není problém vyrobit s
 jmena = ['martin', 'jana', 'petr', 'simona']
 ```
 
-## Cvičení: Seznamy
+### Cvičení: Seznamy
+
 ::exc[excs/pohyby-na-uctu]
 ::exc[excs/prumer]
 ::exc[excs/rozpeti]
 
-## Bonusy
+### Bonusy
+
+::exc[excs/zasedacka]
 ::exc[excs/stred-seznamu]
 ::exc[excs/stred-seznamu-2]

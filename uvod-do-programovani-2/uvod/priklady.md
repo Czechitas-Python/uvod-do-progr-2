@@ -4,7 +4,7 @@
 ::exc[excs/kava]
 ::exc[excs/suda-cisla]
 
-## Bonusy
+### Bonusy
 
 ::exc[excs/nejvetsi-cislo]
 ::exc[excs/rodna-cisla]

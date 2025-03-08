@@ -1,7 +1,10 @@
 ## Další příklady na procvičení
-::exc[excs/odstraneni-duplikatu]
-::exc[excs/rozdeleni-cisel]
-::exc[excs/prijimacky]
+
+::exc[excs/obsazenost-zasedacek]
+::exc[excs/vidlicka]
+::exc[excs/hraci]
+::exc[excs/zatopek]
 ::exc[excs/prumerne-teploty]
 ::exc[excs/znamky-z-pisemek]
-::exc[excs/zasedacka]
+
+
