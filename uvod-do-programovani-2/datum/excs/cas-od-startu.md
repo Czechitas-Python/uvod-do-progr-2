@@ -7,3 +7,15 @@ Satelit Solar Orbiter, který má za cíl pozorování Slunce, odstartoval 10. �
 
 - Který den v týdnu Solar Orbiter odstartoval?
 - Spočítej, kolik času od jeho startu uplynulo.
+
+:::solution
+```py
+from datetime import datetime, timedelta
+
+
+so_start = datetime(2020, 2, 10, 5, 3)
+so_start.weekday()
+uplynulo = datetime.now() - so_start
+print(uplynulo)
+```
+:::
