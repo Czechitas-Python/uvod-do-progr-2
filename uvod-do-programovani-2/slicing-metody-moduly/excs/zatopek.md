@@ -97,9 +97,9 @@ Nejrychleji zaběhl(a) 4. a nejpomaleji 8. kolo.
 Průměrná rychlost je 15.85 km/h.
 ```
 
-```
 Pro běžce s číslem 84 může výstup vypadat takto:
 
+```
 84
 Rozdíl mezi prvním a posledním kolem je 3.8 min.
 Rozdíl mezi nejrychlejším a nejpomalejším časem v rámci prvních pěti kol je 1.66 min.
