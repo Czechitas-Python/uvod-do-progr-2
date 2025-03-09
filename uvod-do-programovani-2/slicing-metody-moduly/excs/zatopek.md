@@ -3,7 +3,7 @@ title: Zátopek
 demand: 2
 ---
 
-Níže jsou data běžců maratonu, který se beží na počet Emila Zátopka. Závod se běží ve Stromovce a úspěšnému dokončení závodu je třeba absolvovat 8 kol po cca 5.27 kilometrech (celkem 42.195 km). Na začátku vnořeného seznamu je startovní číslo běžce nebo běžkyně, ostatní položky označují časy v jednotlivých kolech.
+Níže jsou data běžců maratonu, který se beží na počest Emila Zátopka. Závod se běží ve Stromovce a úspěšnému dokončení závodu je třeba absolvovat 8 kol po cca 5.27 kilometrech (celkem 42.195 km). Na začátku vnořeného seznamu je startovní číslo běžce nebo běžkyně, ostatní položky označují časy v jednotlivých kolech.
 
 Tvým úkolem je data zpracovat a pro každého z běžců a běžkyň vypsat níže uvedené informace. Pro zpracování je vhodné data převést na číslo, např. na minuty. Pokud výpis není celé číslo, proveď zaokrouhlení na dvě desetinná místa.
 
