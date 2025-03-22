@@ -116,7 +116,12 @@ skutecny_prijezd = planovany_prijezd + zpozdeni
 ```
 
 
-## Cvičení: Datum a čas
+### Cvičení: Datum a čas
+
 ::exc[excs/prevod-casu]
 ::exc[excs/cas-od-startu]
 ::exc[excs/doprava-vecere]
+
+### Bonusy
+
+::exc[excs/kino]
