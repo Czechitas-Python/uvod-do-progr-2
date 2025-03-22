@@ -60,7 +60,7 @@ Python do proměnné `radek` vloží to, co je na začátku seznamu, tj. prodeje
 for radek in prodej_knih:
 ```
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_1_1.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_1_1.drawio.svg}
 
 Nyní je vyhodnocená podmínka
 
@@ -68,7 +68,7 @@ Nyní je vyhodnocená podmínka
     if radek[1] > radek[2]:
 ```
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_1_2.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_1_2.drawio.svg}
 
 Hodnota `radek[1]` je 4200 a hodnota `radek[2]` je 4900. Není tedy pravda, že je hodnota `radek[1]` větší než hodnota na pozici `radek[2]`, proto nespouštíme kód uvnitř podmínky. V cyklu již další příkazy nejsou a pokračuje dál.
 
@@ -77,7 +77,7 @@ Hodnota `radek[1]` je 4200 a hodnota `radek[2]` je 4900. Není tedy pravda, že 
 
 Python vidí, že není na konci seznamu, a proto tedy spouští cyklus znovu. Do proměnné `radek` vloží to, co je na dalším místě, tj. prodeje v Brně.
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_2_1.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_2_1.drawio.svg}
 
 Nyní je vyhodnocená podmínka
 
@@ -85,7 +85,7 @@ Nyní je vyhodnocená podmínka
     if radek[1] > radek[2]:
 ```
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_2_2.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_2_2.drawio.svg}
 
 Hodnota `radek[1]` je 2500 a hodnota `radek[2]` je 2100. V tomto případě je pravda, že hodnota `radek[1]` je větší než `radek[2]`. To znamená, že prodeje skutečně poklesly.
 
@@ -101,34 +101,34 @@ Hodnota `radek[0]` se nyní zobrazí na obrazovce.
 
 Třetí opakování cyklu se týká Ostravy.
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_3_1.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_3_1.drawio.svg}
 
 I zde bude podmínka vyhodnocena jako pravda a Python vypíše i "Ostrava".
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_3_2.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_3_2.drawio.svg}
 
 ### Čtvrté opakování cyklu
 
 Další pokračování se týká Plzně.
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_4_1.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_4_1.drawio.svg}
 
 Prodeje poklesly i zde.
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_4_2.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_4_2.drawio.svg}
 
 ### Páté opakování cyklu
 
 V Liberci prodeje taktéž klesly.
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_5_1.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_5_1.drawio.svg}
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_5_2.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_5_2.drawio.svg}
 
 ### Šesté opakování cyklu
 
 A v Olomouci též prodeje taktéž klesly.
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_6_1.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_6_1.drawio.svg}
 
-::fig[Průběh cyklu]{src=assets/cyklus-prubeh_6_2.drawio.svg}
+::fig[]{src=assets/cyklus-prubeh_6_2.drawio.svg}
