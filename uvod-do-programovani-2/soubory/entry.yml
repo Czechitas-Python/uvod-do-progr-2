@@ -3,6 +3,7 @@ lead: Naučíme se jak číst a zapisovat data do souborů na disku a tím v na�
 sections:
   - cteni-souboru
   - zapis-souboru
+  - excs
   - cteni-na-doma
   - eurostat-vyvojarky
   - cteni-na-doma-chatbot

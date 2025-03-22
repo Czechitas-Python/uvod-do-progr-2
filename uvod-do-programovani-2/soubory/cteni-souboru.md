@@ -61,7 +61,9 @@ V předchozí ukázce vidíme elegantní uložení dvou hodnot na řádku rozdě
 
 ## Cvičení: Čtení ze souborů
 ::exc[excs/vyplata-presneji]
-::exc[excs/pocet-slov]
+::exc[excs/kryptomeny]
 
 ## Bonus
+::exc[excs/pocet-slov]
 ::exc[excs/pujcovna]
+

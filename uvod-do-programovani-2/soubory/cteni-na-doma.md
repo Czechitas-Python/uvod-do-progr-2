@@ -1,4 +1,4 @@
-## Čtení na doma
+## Čtení na doma: Kódování
 
 Na lekci jsme si ukazovali, jak číst a zapisovat data z/do textových souborů. Co ale jiné formáty, jako například Excel?
 
