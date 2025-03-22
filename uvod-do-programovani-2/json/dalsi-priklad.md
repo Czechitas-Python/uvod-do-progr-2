@@ -1,4 +1,4 @@
-## Čtení na doma - další příklady JSON souborů
+## Čtení na doma: Další příklady JSON souborů
 
 Podívejme se na ještě jeden příklad zápisu dat. Data reprezentují informace o konání kurzu Úvod do programování.
 
@@ -40,5 +40,7 @@ Podívejme se na ještě jeden příklad zápisu dat. Data reprezentují informa
 
 Všimni si, jak obsah JSON souboru představující jeden kurz, obsahuje pod klíčem `konani` seznam dalších slovníků. Každý z nich reprezentuje jedno konání kurzu a dále obsahuje například seznam koučů atd.
 
-## Cvičení: JSON
+### Cvičení
+
 ::exc[excs/kurz]
+::exc[excs/vykazy]
