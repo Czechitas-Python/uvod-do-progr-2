@@ -1,0 +1,5 @@
+title: Cykly, dotazy v SQL a krokování
+lead: V této části uvidíš porovnání mezi tím, jak funguje cyklus v Pythonu a dotaz v SQL a naučíš se techniku označovanou jako krokování (debugging).
+sections:
+  - cyklus_sql
+  - krokovani
