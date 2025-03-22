@@ -2,6 +2,7 @@ title: Cykly 2
 lead: Ukážeme si, že cykly můžeme používat nejen pro sekvence, ale i pro číselné posloupnosti.
 sections:
   - cyklus-s-ciselnou-radou
+  - zanorene-cykly-a-range
   - preruseni-cyklu
   - excs
   - cyklus-while
