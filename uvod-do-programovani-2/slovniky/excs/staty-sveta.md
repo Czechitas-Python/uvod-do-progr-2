@@ -1,5 +1,5 @@
 ---
-title: Státy světě
+title: Státy světa
 demand: 2
 ---
 
