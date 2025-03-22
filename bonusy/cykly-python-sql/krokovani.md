@@ -26,7 +26,7 @@ Nyní jsme o krok (snímek) dál a vidíme, že vznikla proměnná `radek`. Prot
 
 Aktuální pozici nám vyznačuje podbarvení řádku a šipka vlevo u čísla řádku.
 
-![](assets/debugging_06.png size=50)
+::fig[]{src=assets/debugging_06.png size=50}
 
 Visual Studio Code nám tedy zobrazuje stejné informace, které byly na schématu, pouze v graficky jiné podobě.
 

@@ -9,12 +9,12 @@ Při práci s REST API využijeme následující postup:
 
 Využijeme data z webu [DataUSA.io](https://datausa.io/), konkrétně data o pozici [vývojář(ka) software](https://datausa.io/profile/soc/software-developers). Data bychom si mohli stáhnout ručně, ale to vyžaduje lidský zásah. API nám umožní automatickou aktualizaci dat, takže se do reportu budou automaticky stahovat nová data.
 
-![](assets/datausa-io-1.png size=50)
+::fig[]{src=assets/datausa-io-1.png size=50}
 
 Web [DataUSA.io](https://datausa.io/) registraci nevažaduje, můžeme tedy začít API používat. K prohlídnutí formátu dat můžeme použít i webový prohlížeč. Pro Google Chrome je k dispozici doplněk [JSON Formatter
 ](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en), který data zformátuje do přehlednější podoby. Prohlížeč Mozilla Firefox umí data hezky zformátovat automaticky. Další možností je použití online nástrojů jako [JSON Formatter](https://jsonformatter.curiousconcept.com/), do kterého překopírujeme textový výstup. (On-line nástroje bychom neměli používat pro citlivá data, např. data o zákaznících firmy).
 
-![](assets/datausa-io-2.png size=80)
+::fig[]{src=assets/datausa-io-2.png size=50}
 
 ```python
 import requests

@@ -4,7 +4,7 @@ Uvažujme data o počtech žen v ICT v evropských státech. Data si můžeš st
 
 Data jsou ve formátu TSV. Formát je podobný CSV, jen je jako oddělovač použitý tabulátor místo čárky.
 
-![](assets/eurostat-stazeni-1.png size=50)
+::fig[]{src=assets/eurostat-stazeni-1.png size=50}
 
 ```python
 data_eurostat = []
@@ -35,7 +35,7 @@ for radek in data_eurostat[1:]:
 
 Možná bylo zajímavé podívat se na ostatní státy. Podíváme se na vývoj v jednotlivých zemích. Vezememe vždy počáteční a poslední hodnotu časové řady a spočítáme rozdíl mezi nimi.
 
-![](assets/eurostat-stazeni-2.png size=50)
+::fig[]{src=assets/eurostat-stazeni-2.png size=50}
 
 
 ```python
