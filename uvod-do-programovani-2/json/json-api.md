@@ -42,9 +42,14 @@ data = response.json()
 print(data)
 ```
 
-## Cvičení: API a JSON
+### Cvičení
 ::exc[excs/seznam-lidi]
+::exc[excs/kocky]
+
+### Bonusy
+
 ::exc[excs/svatky]
+::exc[excs/jmena]
 
 
 ### Čekání na odpověď
