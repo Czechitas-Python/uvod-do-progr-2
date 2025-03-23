@@ -15,7 +15,7 @@ Nechte váš program vypsat tento seznam do souboru s názvem `kalendar.txt`, ka
 ```py
 pocty_dni = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
-with open("kalendar.txt", encoding="utf-8", mode="a") as file:
+with open("kalendar.txt", encoding="utf-8", mode="w") as file:
     for dny in pocty_dni:
         print(dny, file=file)
 ```

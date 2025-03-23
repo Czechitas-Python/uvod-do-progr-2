@@ -2,7 +2,7 @@ title: JSON
 lead: Díky formátu JSON je můžeme snadno ukládat nebo například stahovat z internetu.
 sections:
   - format-json
+  - json-api
   - slozitejsi-struktury
   - dalsi-priklad
-  - json-api
   - json-data-usa
