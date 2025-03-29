@@ -19,3 +19,18 @@ Získej jednu informaci a ulož ji do souboru ve formátu JSON. Ulož pouze info
    "fact":"A cats field of vision is about 185 degrees."
 }
 ```
+
+
+:::solution
+```py
+import json
+import requests
+
+response = requests.get("https://catfact.ninja/fact")
+data = response.json()
+data.pop("length")
+
+with open("kocky.json", "w", encoding="utf-8") as file:
+    json.dump(data, file)
+```
+:::

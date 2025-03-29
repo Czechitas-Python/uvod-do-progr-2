@@ -43,3 +43,21 @@ Níže je příklad výstupu pro jméno "jiri":
    "probability":0.842
 }
 ```
+
+:::solution
+```py
+import json
+import requests
+
+response = requests.get("https://api.nationalize.io/?name=oksana")
+data = response.json()
+
+max_dict = {"probability": 0}
+
+for item in data["country"]:
+    if item["probability"] > max_dict["probability"]:
+        max_dict = item
+
+print(max_dict)
+```
+:::
