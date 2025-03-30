@@ -1,4 +1,4 @@
-### Obecná výjimka
+## Obecná výjimka
 
 V obsahu souboru ale může být celá řada dalších záludností. Podívej se na obsah souboru níže. Co tam ma nás číhá?
 
