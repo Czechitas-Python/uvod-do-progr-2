@@ -3,6 +3,7 @@ lead: Jak ošetřit chybové stavy v programu pomocí bloku try/except
 sections:
   - chyby-v-programu
   - krokovani
+  - vyjimky
   - obecna-vyjimka
   - osetreni-vstupu
   - pokrocila-prace
