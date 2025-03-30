@@ -1,4 +1,4 @@
-## Pokročilá práce s výjimkami v Pythonu
+## Čtení na doma: Pokročilá práce s výjimkami v Pythonu
 
 V některých částech kódu můžeme odchytávat i více možných výjimek současně. Například čtení ze souboru je typický příklad operace, která může zkrachovat z několika různých důvodů:
 
