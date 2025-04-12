@@ -52,7 +52,6 @@ Pro sloupec `UTOCNIK_2` bude zpracování vypadat takto.
 ```py
     utocnik = radek[SL_UTOCNIK_2]
     if utocnik != "":
-        utocnik = radek[7]
         if utocnik in utocnici:
             utocnici[utocnik] = utocnici[utocnik] + 1
         else:
