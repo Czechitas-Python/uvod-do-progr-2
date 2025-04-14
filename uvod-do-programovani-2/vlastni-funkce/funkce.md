@@ -80,7 +80,7 @@ Doporučená struktura skriptu:
 4. hlavní kód, ze kterého se funkce volají
 :::
 
-### Čistá funkce
+### Čtení na doma: Čistá funkce
 
 Níže definovaná funkce je bez tzv. :term{cs="vedlejších efektů" en="side effect"}, tj. používá pouze své parametry a nepoužívá žádné proměnné definované mimo ni (např. vstup od uživatele). Stejně tak mimo návratové hodnoty nijak neovlivňuje běh programu. Funkci bez vedlejších efektů se říká :term{cs="čistá funkce" en="pure function"}. Její výhodou je, že pro stejný vstup vždy vrací stejný výstup, což například usnadňuje testování nebo hledání chyby.
 
@@ -96,14 +96,14 @@ exchange_rate = 26
 
 
 def convert_to_euro(crown):
-    return crown * exchange_rate
+    return crown / exchange_rate
 ```
 
 Takto uvedená funkce je již čistou funkcí.
 
 ```py
 def convert_to_euro(crown, exchange_rate):
-    return crown * exchange_rate
+    return crown / exchange_rate
 ```
 
 ### Funkce bez kódu
