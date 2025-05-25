@@ -1,6 +1,18 @@
 ## Výjímky
 
-Uvažujme teď nový soubor [smeny-2.txt](assets/smeny-2.txt). Ten obsahuje chybu. Pokud bychom načetli tento soubor v našem programu, skončí následující chybou.
+Uvažujme teď upravená data, která obsahují chybu.
+
+```py
+lines = [
+    "2904,4",
+    "7390,0",
+    "6950,8",
+    "3300,4",
+    "10570,8",
+    "1310,2",
+    "9806,8"
+]
+```
 
 ```shell
     avg = int(total_sales) / int(hours)
@@ -30,22 +42,24 @@ Abychom zabránili neřízenému pádu programu v případě takové chyby ve vs
 V tomto případě nejprve zkontrolujeme, zda je proměnná `hours` větší než 0. Pokud není, vypíšeme chybu a dělení neprovádíme.
 
 ```py
-lines = []
-
-with open("smeny-2.txt", encoding="utf-8") as file:
-    for line in file:
-        lines.append(line)
+lines = [
+    "2904,4",
+    "7390,0",
+    "6950,8",
+    "3300,4",
+    "10570,8",
+    "1310,2",
+    "9806,8"
+]
 
 avg_sales = []
 for line in lines:
     line = line.split(",")
-    day, total_sales, hours = line
-    hours = int(hours)
-    if hours > 0:
-        avg = int(total_sales) / int(hours)
+    if int(line[0]) > 0:
+        avg = int(line[0]) / int(line[1])
         avg_sales.append(avg)
     else:
-        print(f"Údaj o délce směny pro {day} je chybný.")
+        print("Údaj o délce směny je chybný.")
 
 print(avg_sales)
 ```
@@ -61,13 +75,11 @@ Protože provedení všech potřebných kontrol by bylo v řadě případů př�
 avg_sales = []
 for line in lines:
     line = line.split(",")
-    day, total_sales, hours = line
-    hours = int(hours)
+    avg = int(line[0]) / int(line[1])
     try:
-        avg = int(total_sales) / int(hours)
         avg_sales.append(avg)
     except ZeroDivisionError:
-        print(f"Délka směny pro {day} je 0.")
+        print("Údaj o délce směny je chybný.")
 
 print(avg_sales)
 ```
@@ -90,11 +102,45 @@ Protože v tomto bloku je jeden příkaz, Python tento příkaz spustí.
 
 ::fig[]{src=assets/krokovani-15.png}
 
+
+### Obecná výjimka
+
+Ve vstupních datech může být více záludností. Podívej se na obsah souboru níže. Co tam ma nás číhá?
+
+- Některé hodnoty nepůjdou převést na číslo
+- V jednom případě údaj o délce směny chybí.
+- Jeden řádek je úplně prázdný
+
+```
+lines = [
+    "2904,4",
+    "7390,0",
+    "6950 (pršelo),8",
+    "3300",
+    "10570,8",
+    "1310,2",
+    ""
+]
+```
+
+Pokud se spokojíme pouze s výpisem o chybě, můžeme namísto chyby `ZeroDivisionError` odchytávat obecnou chybu `Exception`. Tato obecná chyba odchytí další chyby, které se v programu můžou vyskytnout, tedy nejen `ZeroDivisionError`, ale i `ValueError`, `IndexError` a řadu dalších. Dokáže odchytit i chybu s neexistujícím souborem nebo nedostatečnými právy pro jeho čtení.
+
+```py
+avg_sales = []
+for line in lines:
+    try:
+        line = line.split(",")
+        avg = int(line[0]) / int(line[1])
+        avg_sales.append(avg)
+    except Exception:
+        print("Údaj o délce směny je chybný.")
+```
+
+
 ## Cvičení
 
-::exc[excs/deleni]
 ::exc[excs/knihy]
 
 ### Bonusy
 
-::exc[excs/datum]
+::exc[excs/knizni-serie]

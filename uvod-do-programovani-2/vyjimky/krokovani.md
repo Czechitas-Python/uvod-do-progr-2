@@ -1,21 +1,24 @@
-## Výjimky a krokování
+## Krokování
 
 Krokování je podobné práci videorozhodčích v hokeji, když sledují zpomalené záběry, aby zjistili, co se v nějaké nepřehledné situaci stalo. Krokování nám umožní zastavit běh programu na konkrétním místě a podívat se, jaké v tom okamžiku existují v programu proměnné a jaké jsou jejich hodnoty. Pokud máme program "zastavený", můžeme nechat spustit jen jeden nebo několik vybraných řádků a sledovat, co se během té doby změní.
 
-Tato technika je důležitá především pro odstraňování chyb a neočekávaného chování programu. Vyzkoušejme si krokování při čtení souboru [smeny.txt](assets/smeny.txt).
+Tato technika je důležitá především pro odstraňování chyb a neočekávaného chování programu. Vyzkoušejme si krokování při čtení dat v seznamu `lines`. V něm máme data o provozu malé kavárny - první číslo je tržba a druhé číslo je počet hodin, kdy byla kavárna otevřená.
 
 ```py
-lines = []
-
-with open("smeny.txt", encoding="utf-8") as file:
-    for line in file:
-        lines.append(line)
+lines = [
+    "2904,4",
+    "7390,7",
+    "6950,8",
+    "3300,4",
+    "10570,8",
+    "1310,2",
+    "9806,8"
+]
 
 avg_sales = []
 for line in lines:
     line = line.split(",")
-    day, total_sales, hours = line
-    avg = int(total_sales) / int(hours)
+    avg = int(line[0]) / int(line[1])
     avg_sales.append(avg)
 
 print(avg_sales)
