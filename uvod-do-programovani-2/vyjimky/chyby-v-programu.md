@@ -125,42 +125,9 @@ Pokud na vstupu dostaneme číslo vyšší než 2, program skončí chybou `Inde
 IndexError: list index out of range
 ```
 
-Při práci se slovníky můžeme narazit na `KeyError`.
+Podobné jsou i následující situace a z toho plynoucí chyby:
 
-```py
-zvirata = {'dog': 'pes', 'cat': 'kočka'}
-klic = input("Zadej zvíře pro překlad: ")
-print(zvirata[klic])
-```
-
-Pokud zadáme na vstup např. *rat*, program skončí chybou.
-
-```shell
-    print(zvirata['rat'])
-          ~~~~~~~^^^^^^^
-KeyError: 'rat'
-```
-
-V případě objektově orientovaného programování můžeme u objektu narazit na `AttributeError`, a to v případě, že se pokoušíme číst neexistující atribut nebo používat neexistující metodu. Při používání modulů můžeme narazit na `ImportError`, která se objeví např. v případě, že importujeme modul z knihovny, kterou nemáme nainstalovanou. Pokud program překročí maximální povolené množství využité paměti, objeví se chyba `MemoryError`.
-
-Specifická chyba, která se využívá například při testování, souvisí s klíčovým slovem `assert`. Klíčové slovo `assert` může být využito např. pro testování funkce. Například pokud je funkce `is_odd` naprogramovaná špatně, může vracet `True` pro sudá čísla namísto pro lichá. Python neví, že toto je chyba, ale můžeme využít test, který ověří, že např. pro číslo 3 vrací funkce hodnotu `True`.
-
-```py
-def is_odd(number):
-    return number % 2 == 0
-assert is_odd(3) == True
-```
-
-Pokud funkce vrací něco jiného, program skončí chybou `AssertionError`.
-
-```py
-    assert is_odd(3) == True
-AssertionError
-```
-
-Ve správné verzi programu by totiž měla funkce vypadat takto:
-
-```py
-def is_odd(number):
-    return number % 2 == 1
-```
+- Čteme neexistující klíč ze slovníku (`KeyError`).
+- Čteme neexistující atribut objektu (`AttributeError`).
+- Importujeme modul, který Python nemůže najít (např. protože ho nemáme nainstalovaný, máme v názvu překlep atd., `ImportError`).
+- Dělení nulou způsobí `ZeroDivisionError`.
