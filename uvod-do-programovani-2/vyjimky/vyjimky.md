@@ -55,7 +55,7 @@ lines = [
 avg_sales = []
 for line in lines:
     line = line.split(",")
-    if int(line[0]) > 0:
+    if int(line[1]) > 0:
         avg = int(line[0]) / int(line[1])
         avg_sales.append(avg)
     else:
@@ -75,8 +75,8 @@ Protože provedení všech potřebných kontrol by bylo v řadě případů př�
 avg_sales = []
 for line in lines:
     line = line.split(",")
-    avg = int(line[0]) / int(line[1])
     try:
+        avg = int(line[0]) / int(line[1])
         avg_sales.append(avg)
     except ZeroDivisionError:
         print("Údaj o délce směny je chybný.")
