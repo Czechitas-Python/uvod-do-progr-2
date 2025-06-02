@@ -10,7 +10,7 @@ Satelit Solar Orbiter, který má za cíl pozorování Slunce, odstartoval 10. �
 
 :::solution
 ```py
-from datetime import datetime, timedelta
+from datetime import datetime
 
 
 so_start = datetime(2020, 2, 10, 5, 3)
