@@ -1,4 +1,26 @@
-## Čtení na doma: Časové zóny
+## Čtení na doma: Časové zóny a lokální nastavení
+
+### Lokální nastavení
+
+Některé direktivy umožňují zobrazit údaje jako slovo. Týká se to především označení měsíců a dnů v týdnu. Pokud použijeme direktivu `%B`, Python zobrazí název měsíce v angličtině (např. July). V našem programu ale můžeme nastavit zobrazení i v jiném jazykovém prostředí, např. v češtině. Češtinu můžeme nastavit pomocí funkce `setlocale` z modulu `locale`. Jako první parametr použijeme `locale.LC_ALL`. To zahrnuje všechny skupiny jazykových nastavení, např. nastavení měny, formátu čísla atd.
+
+```py
+from datetime import datetime
+import locale
+
+locale.setlocale(locale.LC_ALL, "cs_CZ")
+apollo_start = datetime(1969, 7, 16, 14, 32)
+print(apollo_start.strftime("%d. %B %Y, %H:%M"))
+```
+
+Pokud počítáme s tím, že náš program můžou využívat uživatelé z různých koutů světa, můžeme Python požádat, aby se pokusil zjistit jazykové nastavení konkrétního uživatele nebo uživatelky. K tomu slouží funkce `getlocale`. Jazykové nastavení si můžeme například uložit do proměnné a použít ho ve funkci `setlocale`.
+
+```py
+current = locale.getlocale()
+locale.setlocale(locale.LC_ALL, current)
+```
+
+### Časové zóny
 
 Aktuální čase se v různých místech na světě liší z důvodu různých časových zón. Běžně se za "základní" časovou zónu považuje UTC (Coordinated Universal Time) a ostatní časové zony jsou definovány posunem vůči UTC. UTC odpovídá zimnímu času na nultému poledníku. Praha je oproti nultému poledníku posunutá při zimním času o 1 hodinu a při letním času o 2 hodiny.
 
