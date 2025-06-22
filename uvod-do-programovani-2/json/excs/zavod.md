@@ -3,7 +3,7 @@ title: Závod
 demand: 3
 ---
 
-Pracuj dál se souborem `zavod.json`. Cílem cvičení je zjistit čas závodníka, který získal stříbrnou medaili - seznam závodníků je seřazený, tedy výherce je zapsán jako první v našem souboru. Budeš tedy muset projít data pomocí cyklu a vytvořit seznam všech závodníků, kteří závod dokončili, tj. jejich oficiální čas není `'DNF'`.
+Pracuj dál se souborem `zavod.json`. Cílem cvičení je zjistit čas závodníka, který získal stříbrnou medaili - seznam závodníků je seřazený, tedy výherce je zapsán jako první v našem souboru.
 
 :::solution
 ```py
