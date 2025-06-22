@@ -1,6 +1,13 @@
-## Skvělí velitelé
+---
+title: Skvělí velitelé
+demand: 2
+---
 
-Nyní je naším úkolem vytvořit seznam velitelů, kteří zvítězili v boji proti přesile. Budeme k tomu potřebovat sloupečky s výsledkem bitvy, informacemi o síle útočníků a obránců a se jmény velitelů. Pro tyto sloupečky si opět vytvoříme konstanty.
+Nyní je naším úkolem vytvořit seznam velitelů, kteří zvítězili v boji proti přesile, tj. jejich armáda byla slabší než armáda soupeřů a oni přesto zvítězili. Budeme k tomu potřebovat sloupečky s výsledkem bitvy (`attacker_outcome`), informacemi o síle útočníků a obránců (`attacker_size` a `defender_size`) a se jmény velitelů.
+
+Před začátkem psaní kódu si sepiš kroky, které jsou k řešení potřeba. Poté začni s programováním a postupuj podle svého plánu. V případě problémů můžeš vyzkoušet debugger.
+
+:::solution
 
 ```py
 with open("battles.tsv", encoding="utf-8") as soubor:
@@ -61,3 +68,4 @@ Nakonec zkontrolujeme výsledek. Ti, kteří četli knihy či viděli seriál, m
 ```py
 print(velitele)
 ```
+:::

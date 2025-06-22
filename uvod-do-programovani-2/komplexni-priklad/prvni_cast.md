@@ -1,18 +1,24 @@
 ## Útočící rody
 
+Abychom příklad vyřešili, je potřeba postupně provést následující kroky:
+
+- načíst soubor a uložit data do vhodné struktury,
+- projít data řádek po řádku a pro každý řádek si uložit všechny útočících rody,
+- vytvořenou strukturu zapsat do souboru.
+
 Nejprve je potřeba načíst soubor. K tomu můžeme využít metodu `readlines()`.
 
 ```py
 # Otevřeme soubor
+radky = []
 with open("battles.tsv", encoding="utf-8") as soubor:
-    radky = soubor.readlines()
+    for radek in soubor:
+        radky.append(radek)
 ```
+
+*Která hodnota je vhodná na ukládání dat o tom, kolikrát který rod útočil?*
 
 Útočící rody je potřeba si poznamenávat do vhodné struktury. Abychom si mohli snadno evidovat i to, kolikrát daný rod útočil, můžeme využít slovník. Klíčem ve slovníku bude jméno útočícího rodu a hodnotou počet bitev, ve kterém rod útočil. Na začátku bude slovník prázdný a vytvoříme ho pomocí prázdných složených závorek.
-
-```py
-utocnici = {}
-```
 
 Soubor projdeme řádek po řádku pomocí cyklu. Každý řádek je jedním prvkem v seznamu `radky`. Zatím je celý řádek uložený v jednom řetězci. Abychom řetězec rozdělili na jednotlivé sloupce, využijeme metodu `split()`. Protože se jedná o soubor ve formátu `.tsv`, jako oddělovač zde slouží tabulátor. Tím nám vznikne seznam `radek`.
 
@@ -21,7 +27,7 @@ for radek in radky[1:]:
     radek = radek.split("\t")
 ```
 
-V bitvě může útočit více rodů, uvažujeme maximálně čtyři. První sloupec s útočícím rodem je `UTOCNIK_1`. My ale máme data uložená v seznamu, proto potřebujeme vědět pozici, na které se informace nachází. V souboru zjistíme, že sloupec `UTOCNIK_1` se nachází na pozici 5 (při číslování od 0). Číslo můžeme do souboru napsat rovnou nebo vytvořit konstantu, což je vlastně proměnná, jejíž hodnotu nastavíme pouze jednou a už ji neupravujeme. Konstanty obvykle zapisujeme velkými písmeny, abychom je odlišili od běžných proměnných. Konstanty pro přehlednost vkládáme pod importy.
+V bitvě může útočit více rodů, uvažujeme maximálně čtyři. První sloupec s útočícím rodem je `attacker_1`. My ale máme data uložená v seznamu, proto potřebujeme vědět pozici, na které se informace nachází. V souboru zjistíme, že sloupec `attacker_1` se nachází na pozici 5 (při číslování od 0). Číslo můžeme do souboru napsat rovnou nebo vytvořit konstantu, což je vlastně proměnná, jejíž hodnotu nastavíme pouze jednou a už ji neupravujeme. Konstanty obvykle zapisujeme velkými písmeny, abychom je odlišili od běžných proměnných. Konstanty pro přehlednost vkládáme pod importy.
 
 ```py
 SL_UTOCNIK_1 = 5
@@ -35,6 +41,8 @@ SL_UTOCNIK_3 = 7
 SL_UTOCNIK_4 = 8
 ```
 
+*Jaký má tento postup (potenciální) nevýhody? A jak je obejít?*
+
 Po přípravě konstant se můžeme pustit do vnitřní části cyklu. Načteme jméno prvního útočícího rodu. Poté provedeme kontrolu, zda již rod máme ve slovníku `utocnici`. Pokud ano, přidáme mu k dobru další útok. Pokud ne, nastavíme mu počet útoků na 1.
 
 ```py
@@ -47,7 +55,7 @@ Po přípravě konstant se můžeme pustit do vnitřní části cyklu. Načteme 
 
 Podobně budeme pokračovat u všech dalších sloupců. Pouze bychom měli zkontrolovat, zda hodnota v daném sloupci není prázdný řetězec. V řadě bitev totiž útočilo méně rodů než čtyři a některé sloupečky jsou pak prázdné, tj. jsou v nich prázdné řetězce.
 
-Pro sloupec `UTOCNIK_2` bude zpracování vypadat takto.
+Pro sloupec `attacker_2` bude zpracování vypadat takto.
 
 ```py
     utocnik = radek[SL_UTOCNIK_2]
