@@ -1,4 +1,4 @@
-## N-tice
+## Čtení na doma: N-tice
 
 Kromě seznamů si povíme o dalších možnostech, jak uložit více hodnot naráz. Datový typ velmi podobný seznamu je :term{cs="n-tice" en="tuple"}. Představme si ji jako dvojici, trojici, čtveřici apod. nějakých hodnot. Hlavní rozdíly oproti seznamu jsou ty, že není možné měnit prvek na určitém indexu n-tice a není možné žádný prvek přidávat nebo mazat.
 
