@@ -1,4 +1,6 @@
-title: Balíčky z internetu
-lead: Pro Python existuje obrovské množství volně dostupných knihoven. Zkusme si jednu přidat do našeho programu.
+title: Balíčky z internetu a datum a čas
+lead: Pro Python existuje obrovské množství volně dostupných knihoven. Zkusme si jednu přidat do našeho programu. Též se podívejme na práci s datem a časem.
 sections:
   - lesson
+  - datum
+  - casove-zony
