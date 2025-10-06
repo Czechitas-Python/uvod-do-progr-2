@@ -64,7 +64,7 @@ item['price'] = 929
 item['weight'] = 0.4
 ```
 
-Jako klíče slovníku používat i proměnné.
+Jako klíče slovníku můžeme používat i proměnné.
 
 ```py
 key = 'price'

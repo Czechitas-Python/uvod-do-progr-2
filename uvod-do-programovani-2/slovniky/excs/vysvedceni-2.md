@@ -42,7 +42,7 @@ school_report = {
 
 avg = statistics.mean(school_report.values())
 
-print("Známky, ze kterých student získal známku výborně: ")
+print("Předměty, ze kterých student získal známku výborně: ")
 for key, value in school_report.items():
     if value == 1:
         print(key)

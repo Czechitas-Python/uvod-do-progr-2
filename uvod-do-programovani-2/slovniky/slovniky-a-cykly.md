@@ -27,7 +27,7 @@ for key in sales:
     print(key)
 ```
 
-Zkusme nyní informaci o každém prodeji vypsat pomocí věty, do které vložíme název knihy a počet prodaných kusů. Oproti předchozímu příkladu je tu změna. **Každá položka** slovníku se skládá z **klíče** a **hodnoty**. V cyklu můžeme použít oboje (a často i používáme). Využijeme tedy **dvě proměnné**, které oddělíme čárkou. Do první proměnné je uložený klíč a do druhé hodnota. 
+Zkusme nyní informaci o každém prodeji vypsat pomocí věty, do které vložíme název knihy a počet prodaných kusů. Oproti předchozímu příkladu je tu změna. **Každá položka** slovníku se skládá z **klíče** a **hodnoty**. V cyklu můžeme použít oboje (a často i používáme). Využijeme tedy **dvě proměnné**, které oddělíme čárkou. Do první proměnné je uložen klíč a do druhé hodnota. 
 
 Všimni si též, že za slovník vkládáme `.items()`. To je důležité, protože bez metody `.items()` bychom získali pouze klíče.
 

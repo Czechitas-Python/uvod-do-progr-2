@@ -43,7 +43,7 @@ for item in books:
     if item["rating"] >= 8:
         favourite_books = favourite_books + 1
 
-print(f"Gustal celkem přečetl {page_count} knih.")
+print(f"Gustav celkem přečetl {page_count} stran.")
 print(f"Počet knih s hodnocením alespoň 8: {favourite_books}.")
 ```
 :::

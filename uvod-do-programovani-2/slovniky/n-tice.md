@@ -17,7 +17,7 @@ print(type(cookies_count))
 <class 'tuple'>
 ```
 
-Určitě se ptáte, k čemu jsou n-tice dobré, když neumí ani to, co seznamy a nic navíc? Hlavní důvod je určitý výkonností rozdíl oproti seznamům a jejich integrace do jazyka Python, která nabízí výbornou čitelnost kódu. V následující ukázce si rozbalíme seznam nebo n-tici do tří samostatných proměnných:
+Určitě se ptáte, k čemu jsou n-tice dobré, když neumí ani to, co seznamy a nic navíc? Hlavní důvod je určitý výkonnostní rozdíl oproti seznamům a jejich integrace do jazyka Python, která nabízí výbornou čitelnost kódu. V následující ukázce si rozbalíme seznam nebo n-tici do tří samostatných proměnných:
 
 ```py
 item = "Čajová konvička s hrnky", 899, True

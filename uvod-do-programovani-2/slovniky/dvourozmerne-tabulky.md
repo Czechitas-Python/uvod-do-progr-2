@@ -23,7 +23,7 @@ Je to v podstatě běžná **dvourozměrná tabulka**, stejná data vidíme jako
 | Vrah zavolá v deset | 5681 | 299 | 2019 |
 | Zločinný steh | 2565 | 369 | 2019 |
 
-Upravme nyní náš výpočet celkového počtu prodaných knih. Nyní pomocí cyklu `for` procházíme seznam, vrátíme se tedy zpět k jedné proměnné, kterou si pojmenujeme `polozka`. Do té cyklus nyní nebude ukládat číslo, ale slovník. Protože my chceme vědět počet prodaných kusů, z každého slovníku si načteme hodnotu uloženou pod klíčem `sold`.
+Upravme nyní náš výpočet celkového počtu prodaných knih. Nyní pomocí cyklu `for` procházíme seznam, vrátíme se tedy zpět k jedné proměnné, kterou si pojmenujeme `item`. Do té cyklus nyní nebude ukládat číslo, ale slovník. Protože my chceme vědět počet prodaných kusů, z každého slovníku si načteme hodnotu uloženou pod klíčem `sold`.
 
 ```py
 total_sales = 0

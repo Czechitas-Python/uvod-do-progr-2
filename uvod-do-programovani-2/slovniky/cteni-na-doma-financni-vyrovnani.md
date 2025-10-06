@@ -1,6 +1,6 @@
 ## Čtení na doma - finanční vyrovnání
 
-Představte si šest spolubydlících: Libora, Zuzku, Patra, Pavlu, Ondru a Míšu. Žijí v jednom bytě a dělí se o náklady na společně používané věci jako je toaletní papír, mýdlo, prací prášek apod. Postupně svoje útraty zapisují do tabulky, která může vypadat například takto:
+Představte si šest spolubydlících: Libora, Zuzku, Petra, Pavlu, Ondru a Míšu. Žijí v jednom bytě a dělí se o náklady na společně používané věci jako je toaletní papír, mýdlo, prací prášek apod. Postupně svoje útraty zapisují do tabulky, která může vypadat například takto:
 
 | Jméno | Položka | Částka |
 | ------ | ---- | ----- |

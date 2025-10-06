@@ -1,5 +1,5 @@
 ---
-title: Paranoidní večírek.
+title: Paranoidní večírek
 demand: 4
 ---
 
