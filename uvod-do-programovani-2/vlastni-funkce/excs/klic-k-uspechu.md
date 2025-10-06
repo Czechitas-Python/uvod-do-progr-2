@@ -17,3 +17,42 @@ Body přidělují podle následujících kritérií:
 - Newsletter: Firma též rozesílá newsletter o svém produktu. Pokud zákazník newsletter odebírá, přičti 1 bod.
   
 Napiš funkci, které bude mít 5 parametrů, které reprezentují zadaná kritéria. Poslední dvě kritéria zadej jako nepovinná s výchozí hodnotou `False`. Funkce vrátí šanci na získání zakázky jako řetězec.
+
+:::solution
+```py
+def odhad_sance(odvetvi, obrat, zeme, konference=False, newsletter=False):
+    body = 0
+    if odvetvi == "automotive":
+        body += 3
+    elif odvetvi == "retail":
+        body += 2
+
+    if obrat < 10:
+        body += 0
+    elif obrat <= 1000:
+        body += 3
+    else:
+        body += 1
+
+    if zeme == "Česko" or zeme == "Slovensko":
+        body += 2
+    elif zeme == "Německo" or zeme == "Francie":
+        body += 1
+
+    if konference:
+        body += 1
+
+    if newsletter:
+        body += 1
+
+    if body < 5:
+        return "malá"
+    elif body <= 8:
+        return "střední"
+    else:
+        return "vysoká"
+
+print(odhad_sance("automotive", 500, "Česko", True, True))
+print(odhad_sance("retail", 5, "Itálie"))
+```
+:::

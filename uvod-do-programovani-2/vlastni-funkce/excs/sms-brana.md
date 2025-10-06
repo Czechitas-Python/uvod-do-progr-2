@@ -27,3 +27,29 @@ K ověření, že zadané telefonní číslo obsahuje pouze čísla, můžeš po
 tel_cislo = "+420 734 123 456"
 tel_cislo = tel_cislo.replace(" ", "")
 ```
+
+:::solution
+```py
+import math
+
+def over_cislo(cislo):
+    cislo = cislo.replace(" ", "")
+    if len(cislo) == 9 and cislo.isnumeric():
+        return True
+    elif len(cislo) == 13 and cislo[:4] == "+420" and cislo[1:].isnumeric():
+        return True
+    else:
+        return False
+
+def cena_zpravy(zprava):
+    pocet_zprav = math.ceil(len(zprava) / 180)
+    return pocet_zprav * 3
+
+cislo = input("Zadej telefonní číslo: ")
+if over_cislo(cislo):
+    zprava = input("Zadej zprávu: ")
+    print(f"Cena zprávy je {cena_zpravy(zprava)} Kč")
+else:
+    print("Neplatné telefonní číslo")
+```
+:::
