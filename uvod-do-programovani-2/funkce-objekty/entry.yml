@@ -1,6 +1,7 @@
 title: Funkce pro práci s objekty
 lead: Python nabízí několik užitečných funkcí, které můžeme využít při práci s objekty
 sections:
+  - funkce-objekty
   - dalsi-funkce
   - provazani-objektu
   - priklad-pouziti
