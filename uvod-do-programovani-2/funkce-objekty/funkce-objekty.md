@@ -2,9 +2,9 @@
 
 ### Funkce `isinstance()`
 
-Často potřebujeme v programu zkontrolovat, zda nějaká funkce je objektem určité třídy. V opačném případě se může stát, že budeme volat metodu, kterou objekt vůbec nemá, protože pochází z jiné třídy, než jsme předpokládali. K tomu slouží funkce `isinstance()`. Ta ověří, zda je objekt založený na nějaké třídě, a vrátí pravdivostní hodnotu. Jako parametry funkce zadáváme objekt a třídu, u které prověřujeme, zda z ní projekt pochází.
+Často potřebujeme v programu zkontrolovat, zda nějaká proměnná je objektem určité třídy. V opačném případě se může stát, že budeme volat metodu, kterou objekt vůbec nemá, protože pochází z jiné třídy, než jsme předpokládali. K tomu slouží funkce `isinstance()`. Ta ověří, zda je objekt založený na nějaké třídě, a vrátí pravdivostní hodnotu. Jako parametry funkce zadáváme objekt a třídu, u které prověřujeme, zda z ní objekt pochází.
 
-Funkce `isinstance()` vrátí hodnnotu `True` i v případě, že objekt pochází z některého z potomků třídy, na které se ptáme. Například pokud bychom kontrolovali, zda objekt `marian` pochází ze třídy `Employee`, výsledkem je opět hodnota `True`.
+Funkce `isinstance()` vrátí hodnotu `True` i v případě, že objekt pochází z některého z potomků třídy, na které se ptáme. Například pokud bychom kontrolovali, zda objekt `marian` pochází ze třídy `Employee`, výsledkem je opět hodnota `True`.
 
 ```python
 marian = Manager("Marian Přísný", "vedoucí konstrukčního oddělení", 25, 5, "Škoda Octavia 1.5 TSI")
@@ -101,7 +101,7 @@ hodnota = getattr(marian, atribut)
 print(hodnota)
 ```
 
-Funkci `getattr()`ale můžeme volat i se třetím parametrem, který specifikuje výchozí hodnotu, jež se má vrátit v případě, že objekt zadaný atribut nemá (a program pokračuje bez chyby `AttributeError`).
+Funkci `getattr()` ale můžeme volat i se třetím parametrem, který specifikuje výchozí hodnotu, jež se má vrátit v případě, že objekt zadaný atribut nemá (a program pokračuje bez chyby `AttributeError`).
 
 ```python
 marian = Manager("Marian Přísný", "vedoucí konstrukčního oddělení", 25, 5, "Škoda Octavia 1.5 TSI")
@@ -111,7 +111,7 @@ print(auto)
 
 frantisek = Employee("František Novák", "konstruktér", 25)
 auto = getattr(frantisek, "car", "Neznámé auto")
-# Vypíše "Nemá auto"
+# Vypíše "Neznámé auto"
 print(auto)
 ```
 
