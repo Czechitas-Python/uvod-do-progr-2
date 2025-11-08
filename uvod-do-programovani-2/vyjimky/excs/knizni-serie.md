@@ -22,8 +22,8 @@ pocet_dni = round(pocet_dni)
 print(f"Celou sérii přečteš za {pocet_dni} dní.")
 ```
 
-Vyzkoušej vstup `1984`. Pro něj program skončí chybou `TypeError: 'int' object is not iterable)`. Zamysli se nad tím, v čem může být probém. V tomto případě není vhodné řešení pomocí výjimky, protože ta by nám pravděpodobně překazila výpočet. Místo toho uprav slovník `knihy` tak, aby fungoval i pro vstup `1984`.
+Vyzkoušej vstup `1984`. Pro něj program skončí chybou `TypeError: 'int' object is not iterable)`. Zamysli se nad tím, v čem může být problém. V tomto případě není vhodné řešení pomocí výjimky, protože ta by nám pravděpodobně překazila výpočet. Místo toho uprav slovník `knihy` tak, aby fungoval i pro vstup `1984`.
 
 Nyní uvažuj, jaké výjimky může program vyvolat. Z těch, které jsme si ukazovali, jsou to opět 2. Připrav si vstupy, které vyvolají obě chyby. Pak opět doplň ošetření obecné výjimky a pomocí krokování opět ověř, jestli program přejde do bloku `exception` tam, kde to očekáváš.
 
-Nakonec program uprav tak, že jednu jednu chybu odchytíš pomocí pomocí podmínky. Pro druhou dále použij výjimku. Protože nyní může nastat jen jedna chyba, zmeň obecnou výjimku `Exception` na tu specifickou, která nyní může nastat.
+Nakonec program uprav tak, že jednu chybu odchytíš pomocí podmínky. Pro druhou dále použij výjimku. Protože nyní může nastat jen jedna chyba, zmeň obecnou výjimku `Exception` na tu specifickou, která nyní může nastat.

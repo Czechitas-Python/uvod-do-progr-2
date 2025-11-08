@@ -12,4 +12,4 @@ index = int(index)
 print(knihy[index])
 ```
 
-Nyní do programu přidej ošetření pomocí obecné výjimky `Exception`. Na začátek programu umísti break point. Proveď krokování programu pro oba vstupy, které sis připravil/a v první části. Ze kterého řádku programu přejde do bloku `ęxcept`? Jde o stejný řádek pro oba vstupy, nebo se řádek liší?
+Nyní do programu přidej ošetření pomocí obecné výjimky `Exception`. Na začátek programu umísti break point. Proveď krokování programu pro oba vstupy, které sis připravil/a v první části. Ze kterého řádku programu přejde do bloku `except`? Jde o stejný řádek pro oba vstupy, nebo se řádek liší?

@@ -105,7 +105,7 @@ Protože v tomto bloku je jeden příkaz, Python tento příkaz spustí.
 
 ### Obecná výjimka
 
-Ve vstupních datech může být více záludností. Podívej se na obsah souboru níže. Co tam ma nás číhá?
+Ve vstupních datech může být více záludností. Podívej se na obsah souboru níže. Co tam na nás číhá?
 
 - Některé hodnoty nepůjdou převést na číslo
 - V jednom případě údaj o délce směny chybí.
