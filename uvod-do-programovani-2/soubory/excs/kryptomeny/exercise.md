@@ -16,3 +16,26 @@ Vzorový výstup je níže.
 ```
 Hodnota úspor Markéty je 53314 dolarů.
 ```
+
+:::solution
+
+```py
+rates = {"Polcoin": 0.47, "PyCoin": 0.21, "Czechitacoin": 0.13}
+total_usd = 0
+with open("transaction_list.csv", encoding="utf-8") as file:
+    for line in file:
+        date, amount_str, crypto_with_newline = line.split(";")
+        # množství kryptoměny jako číslo
+        amount = float(amount_str)
+        # název měny bez \n na konci
+        crypto = crypto_with_newline.strip()
+        # kurz dané měny
+        rate = rates[crypto]
+        # přičtu hodnotu této transakce v dolarech
+        total_usd += amount * rate
+# převedu na celé dolary (můžeš použít int nebo round)
+total_usd_int = round(total_usd)
+print(f"Hodnota úspor Markéty je {total_usd_int} dolarů.")
+```
+
+:::
