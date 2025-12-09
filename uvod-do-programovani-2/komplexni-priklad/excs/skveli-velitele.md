@@ -58,7 +58,7 @@ Zápis podmínek pro oba případy tedy můžete vypadat například takto:
         if float(radek[SL_SILA_UTOCNICI]) > float(radek[SL_SILA_OBRANCI]) and radek[SL_VYSLEDEK] == "loss":
             radek_velitele = radek[SL_VELITEL_OBRANCI].split(", ")
             velitele = velitele + radek_velitele
-        elif float(radek[SL_SILA_UTOCNICI]) < float(radek[SL_SILA_OBRANCI]) and radek[SL_VYSLEDEK] == "won":
+        elif float(radek[SL_SILA_UTOCNICI]) < float(radek[SL_SILA_OBRANCI]) and radek[SL_VYSLEDEK] == "win":
             radek_velitele = radek[SL_VELITEL_UTOCNICI].split(", ")
             velitele = velitele + radek_velitele
 ```
