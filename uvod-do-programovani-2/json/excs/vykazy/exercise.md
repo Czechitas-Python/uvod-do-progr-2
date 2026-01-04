@@ -3,7 +3,7 @@ title: Výkazy
 demand: 4
 ---
 
-Uvažuj data o pracovních výkazech, která jsou uložena v souboru [work_hours.json](work_hours.json). 
+Uvažuj data o pracovních výkazech, která jsou uložena v souboru [work_hours.json](assets/work_hours.json). 
 
 Data obsahují pracovní výkazy 5 zaměstnanců za srpen 2023. Pro každý pracovní den jsou v datech následující informace:
 - `date` - datum,
