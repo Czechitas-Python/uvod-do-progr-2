@@ -58,6 +58,6 @@ Toto nastavení pak generuje logovací zprávy ve formátu:
 
 Pokud do logovací zprávy chceme vložit hdonotu nějaké proměnné, můžeme využít formátované řetězce.
 
-## Cvičení
+### Bonusová cvičení
 
 ::exc[excs/kostky]

@@ -2,3 +2,5 @@ title: Logování
 lead: Log je v podstatě deník aplikace, kam si zaznamenává informace o své činnosti
 sections:
   - logovani
+  - testovani
+  - test-driven-development
