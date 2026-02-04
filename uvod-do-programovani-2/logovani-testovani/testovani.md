@@ -112,3 +112,11 @@ V detailech testu v terminálu vidíme vysvětlení, proč test skončil s výsl
 ::fig[]{src=assets/testovani_08.png}
 
 Pozor na to, že vedle `SUCCESS` a `FAIL` může být výsledek testu i `ERROR`. Při spuštění testu se totiž může objevit chyba, stejně jako při spuštění jakékoli jiné části programu.
+
+### Cvičení
+
+::exc[excs/testy-kniha]
+
+### Bonusové cvičení
+
+::exc[excs/testy-heslo]
