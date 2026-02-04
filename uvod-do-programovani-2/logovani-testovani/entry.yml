@@ -1,5 +1,5 @@
-title: Logování
-lead: Log je v podstatě deník aplikace, kam si zaznamenává informace o své činnosti
+title: Logování a testování
+lead: Log je v podstatě deník aplikace, kam si zaznamenává informace o své činnosti. Testování pomáhá odhalit chyby v kódu.
 sections:
   - logovani
   - testovani
