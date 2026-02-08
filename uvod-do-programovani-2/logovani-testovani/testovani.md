@@ -1,4 +1,4 @@
-## Čtení na doma: Testování
+## Testování
 
 Testování je proces, při kterém ověřujeme, že náš program funguje správně. I zkušení programátoři a programátorky dělají chyby a testování nám pomáhá tyto chyby odhalit dříve, než se dostanou k uživatelům. Bez testů se často stává, že opravou jedné chyby nechtěně způsobíme chybu jinou. Testy nám dávají jistotu, že úpravou jedné části programu nerozbijeme část jinou.
 

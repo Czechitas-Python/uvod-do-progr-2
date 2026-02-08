@@ -1,4 +1,4 @@
-## Vývoj řízený testy (TDD)
+## Čtení na doma: Vývoj řízený testy (TDD)
 
 :term{cs="Vývoj řízený testy" en="Test Driven Development"} (TDD) je přístup k vývoji softwaru, při kterém programátor nebo programátorka nejprve napíše test a teprve poté napíše kód, který tímto testem projde. Postup se opakuje v krátkých cyklech a skládá se ze tří kroků:
 
