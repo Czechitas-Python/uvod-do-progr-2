@@ -32,7 +32,7 @@ number_of_tickets = 2
 price_per_ticket = 190
 total_price = number_of_tickets * price_per_ticket
 if total_price >= 500:
-    total_price = total_price * 0.1
+    total_price = total_price * 0.9
     print("Získáváte slevu 10 %!")
 else:
     print("Bohužel nezískáváte slevu.")
@@ -47,10 +47,10 @@ number_of_tickets = 12
 price_per_ticket = 190
 total_price = number_of_tickets * price_per_ticket
 if total_price >= 1500:
-    total_price = total_price * 0.2
+    total_price = total_price * 0.8
     print("Získáváte slevu 20 %")
 elif total_price >= 500:
-    total_price = total_price *  0.1
+    total_price = total_price *  0.9
     print("Získáváte slevu 10 %")
 else:
     print("Bohužel nezískáváte slevu.")
