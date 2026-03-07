@@ -40,3 +40,58 @@ if rodne_cislo_1 < rodne_cislo_2:
 else:
     print("Pacient(ka) 2 je starší")
 ```
+
+:::solution
+
+```py
+
+rodna_cisla = [
+    "845128/6219",
+    "801002/5021",
+    "900116/8291",
+    "790501/7894",
+    "850706/9259",
+    "891222/1824",
+    "870327/9582",
+    "810602/6883",
+    "850512/5070",
+    "790531/7081"
+]
+pocet_muzu = 0
+pocet_zen = 0
+nejmladsi = ""
+nejstarsi = ""
+for cislo in rodna_cisla:
+    mesic = cislo[2] + cislo[3]
+    mesic = int(mesic)
+    if mesic > 50:
+        pocet_zen += 1
+    else:
+        pocet_muzu += 1
+    mesic = mesic % 50
+    upravene_rodne_cislo = cislo[0] + cislo[1]
+    if mesic < 10:
+        upravene_rodne_cislo += "0" + str(mesic)
+    else:
+        upravene_rodne_cislo += str(mesic)
+    upravene_rodne_cislo += cislo[4] + cislo[5]
+    if nejmladsi == "":
+        nejmladsi = upravene_rodne_cislo
+        nejstarsi = upravene_rodne_cislo
+    if upravene_rodne_cislo > nejmladsi:
+        nejmladsi = upravene_rodne_cislo
+    if upravene_rodne_cislo < nejstarsi:
+        nejstarsi = upravene_rodne_cislo
+print(f"Počet žen: {pocet_zen}, počet mužů: {pocet_muzu}.")
+den_nejmladsi = int(nejmladsi[4] + nejmladsi[5])
+mesic_nejmladsi = int(nejmladsi[2] + nejmladsi[3])
+rok_nejmladsi = nejmladsi[0] + nejmladsi[1]
+print(f"Nejmladší: {den_nejmladsi}. {mesic_nejmladsi}. {rok_nejmladsi}")
+den_nejstarsi = int(nejstarsi[4] + nejstarsi[5])
+mesic_nejstarsi = int(nejstarsi[2] + nejstarsi[3])
+rok_nejstarsi = nejstarsi[0] + nejstarsi[1]
+print(f"Nejstarší: {den_nejstarsi}. {mesic_nejstarsi}. {rok_nejstarsi}")
+
+```
+
+:::
