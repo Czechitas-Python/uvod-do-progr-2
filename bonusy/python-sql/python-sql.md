@@ -32,8 +32,8 @@ inzerat = 'Hledáme Python developera'
 | Velká písmena | `pozdrav.upper()` | `UPPER(pozdrav)` |
 | Malá písmena | `pozdrav.lower()` | `LOWER(pozdrav)` |
 | Spojení řetězců | `nazev + ', ' + 'CZ'` | `nazev \|\| ', ' \|\| 'CZ'` nebo `CONCAT(nazev, ', ', 'CZ')` |
-| Výřez — první 3 znaky | `nazev[:3]` → `'Cze'` | `SUBSTRING(nazev, 1, 3)` → `'Cze'` |
-| Výřez — od 3. do 6. znaku | `nazev[2:6]` | `SUBSTRING(nazev, 3, 4)` |
+| Slicing — první 3 znaky | `nazev[:3]` → `'Cze'` | `SUBSTRING(nazev, 1, 3)` → `'Cze'` |
+| Slicing — od 3. do 6. znaku | `nazev[2:6]` | `SUBSTRING(nazev, 3, 4)` |
 | První znak | `nazev[0]` | `LEFT(nazev, 1)` nebo `SUBSTRING(nazev, 1, 1)` |
 | Poslední 3 znaky | `nazev[-3:]` | `RIGHT(nazev, 3)` |
 | Nahrazení textu | `veta.replace('svete', 'Czechitas')` | `REPLACE(veta, 'svete', 'Czechitas')` |
