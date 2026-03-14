@@ -13,7 +13,6 @@ Níže najdeš srovnání nejčastěji používaných operací v Pythonu a SQL.
 | Komentář | `# toto je komentář` | `-- toto je komentář` |
 | Proměnná | `mesto = 'Praha'` | alias: `'Praha' AS mesto` |
 
----
 
 ### Text — práce s řetězci
 
@@ -42,11 +41,10 @@ inzerat = 'Hledáme Python developera'
 | Hledání podřetězce | `'Python' in inzerat` | `inzerat ILIKE '%Python%'` |
 | Hledání podřetězce case insensitive | `'anti' in nazev.lower()` | `nazev ILIKE '%anti%'` |
 
-> **Pozor na indexování!** Python počítá od `0`, SQL počítá od `1`.
-> `nazev[0]` = první písmeno v Pythonu
-> `SUBSTRING(nazev, 1, 1)` = první písmeno v SQL
+**Pozor na indexování!** Python počítá od `0`, SQL počítá od `1`.
+- `nazev[0]` = první písmeno v Pythonu
+- `SUBSTRING(nazev, 1, 1)` = první písmeno v SQL
 
----
 
 ### Čísla — matematické funkce
 
@@ -70,8 +68,6 @@ seznam = [3, 1, 4]
 | Průměr | `statistics.mean(seznam)` | `AVG(sloupec)` |
 | Počet prvků | `len(seznam)` | `COUNT(*)` |
 
----
-
 ### Podmínky
 
 | Popis | Python | SQL (Snowflake) |
@@ -89,7 +85,6 @@ seznam = [3, 1, 4]
 | Chybí hodnota | `x is None` | `x IS NULL` |
 | Hodnota existuje | `x is not None` | `x IS NOT NULL` |
 
----
 
 ### Filtrování a výběr dat
 
