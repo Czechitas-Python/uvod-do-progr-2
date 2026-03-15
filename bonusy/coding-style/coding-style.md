@@ -57,4 +57,4 @@ Oba nástroje se mírně liší v tom, jaké bude výsledné formátování kód
 
 Přeformátování kódu pomocí těchto nástrojů můžeš spustit i z VS Code s využitím příkazu `Format Document`
 
-::fig[Příkaz Format document]{src=assets/format_document.png}
+::fig[Příkaz Format Document]{src=assets/format_document.png}
