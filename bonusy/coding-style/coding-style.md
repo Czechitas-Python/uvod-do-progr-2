@@ -46,3 +46,15 @@ pip install autopep8
 ```
 
 Pro zobrazení změn, které v kódu nastaly, se dá použít vestavěný _diff_ ve VS Code. `autopep8 -i` pak udělá změny in-place (přepíše náš skript).
+
+`black` nainstaluješ pomocí příkazu
+
+```shell
+pip install black
+```
+
+Oba nástroje se mírně liší v tom, jaké bude výsledné formátování kód. Pokud tedy pracuješ v týmu na nějakém projektu, je potřeba, aby všichni v týmu používali stejný nástroj a měi stejné nastavení.
+
+Přeformátování kódu pomocí těchto nástrojů můžeš spustit i z VS Code s využitím příkazu `Format Document`
+
+::fig[Příkaz Format document]{src=assets/format_document.png}
