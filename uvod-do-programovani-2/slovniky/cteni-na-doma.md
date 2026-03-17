@@ -1,4 +1,29 @@
-## Čtení na doma - finanční vyrovnání
+## Čtení na doma 
+
+### Funkce `filter`
+
+K výběru určitých hodnot ze slovníku můžeme použít i funkci `filter()`. Tato funkce je zpravidla používána s tzv. anonymní funkcí, tj. funkcí, která nemá žádné jméno. Je to z důvodu, že funkce je použita pouze na tomto místě a nepotřebujete tedy jméno, aby byla volána. Anonymním funkcím se často říká i *lambda* funkce, protože se k jejich definici používá klíčové slovo `lambda`.
+
+Funkce `filter()` je příkladem **deklarativního stylu** — popisujeme, *co* chceme získat, nikoliv *jak* procházet seznam.
+
+Níže je příklad, jak použít funkci `filter()` k výběru knih, které vyšly v roce 2019.
+
+```py
+prodej_knih = [
+    {"mesto": "Praha", "prodej_2021": 4200, "prodej_2022": 4900},
+    {"mesto": "Brno", "prodej_2021": 2500, "prodej_2022": 2100},
+    {"mesto": "Ostrava", "prodej_2021": 1500, "prodej_2022": 1100},
+    {"mesto": "Plzeň", "prodej_2021": 1000, "prodej_2022": 700},
+    {"mesto": "Liberec", "prodej_2021": 700, "prodej_2022": 500},
+    {"mesto": "Olomouc", "prodej_2021": 400, "prodej_2022": 300},
+]
+
+pokles = list(filter(lambda radek: radek["prodej_2021"] > radek["prodej_2022"], prodej_knih))
+print(pokles)
+```
+
+
+### Finanční vyrovnání
 
 Představte si šest spolubydlících: Libora, Zuzku, Petra, Pavlu, Ondru a Míšu. Žijí v jednom bytě a dělí se o náklady na společně používané věci jako je toaletní papír, mýdlo, prací prášek apod. Postupně svoje útraty zapisují do tabulky, která může vypadat například takto:
 

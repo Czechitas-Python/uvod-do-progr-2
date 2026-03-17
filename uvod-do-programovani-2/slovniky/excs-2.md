@@ -6,3 +6,4 @@
 ::exc[excs/morseova-abeceda]
 ::exc[excs/staty-sveta]
 ::exc[excs/maturita]
+::exc[excs/zranitelnosti]
