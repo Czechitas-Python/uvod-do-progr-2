@@ -50,7 +50,7 @@ for word_en, word_cz in slovnik.items():
 
 Takto bude vypadat uložení při prvním průchodu.
 
-![](assets/Cyklus-Slovnik_items-1-alt.drawio)
+![](assets/Cyklus-Slovnik_items-1-alt.drawio.svg)
 
 ### Seznam slovníků
 
