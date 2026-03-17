@@ -7,3 +7,4 @@
 ::exc[excs/staty-sveta]
 ::exc[excs/maturita]
 ::exc[excs/zranitelnosti]
+::exc[excs/smeny]
