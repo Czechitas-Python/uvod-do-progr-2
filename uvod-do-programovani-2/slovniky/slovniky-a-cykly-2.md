@@ -44,7 +44,7 @@ Do proměnné `"key"` uloží Python `kočka` a do proměnné `value` uloží Py
 Názvy proměnných opravdu závisí jen na nás. Pokud bychom např. použili názvy `word_en` a `word_cz`, program bude fungovat úplně stejně.
 
 ```py
-for word_en, word_cz in slovnik.items():
+for word_cz, word_en in slovnik.items():
     print(f"Slovo {word_cz} přeložíme jako {word_en}.")
 ```
 
