@@ -40,11 +40,13 @@ school_report = {
     "Chemie": 4,
 }
 
-avg = statistics.mean(school_report.values())
-
+# avg = statistics.mean(school_report.values())
+sum_marks = 0
 print("Předměty, ze kterých student získal známku výborně: ")
 for key, value in school_report.items():
     if value == 1:
         print(key)
+    sum_marks += value
+print(sum_marks/len(school_report))
 ```
 :::
