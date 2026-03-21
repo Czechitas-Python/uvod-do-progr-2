@@ -22,7 +22,10 @@ print(data[0].keys())
 
 gender_count = {}
 for item in data:
-    gender_count[item["gender"]] = gender_count.get(item["gender"], 0) + 1
+    if item["gender"] in gender_count:
+        gender_count[item["gender"]] += 1
+    else:
+        gender_count[item["gender"]] = 1
 print(gender_count)
 ```
 :::
