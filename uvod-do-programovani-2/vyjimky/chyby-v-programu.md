@@ -44,7 +44,7 @@ IndentationError: expected an indented block after 'if' statement on line 2
 
 Vše co je shodně odsazeno, patří do jednoho bloku, který končí prvním řádkem, který je odsazen o jedno méně. V tomto případě je problém, že volání funkce `print()` není v bloku odsazeno vůbec. Python ale vyžaduje, aby každá podmínka měla alespoň jeden odsazený řádek. Dále dbej na správné nastavení editoru a nemíchej odsazování různým počtem mezer nebo tabulátorů. Pozor na kód, který kopíruješ z internetu!
 
-### Chyby v logice programu
+### Chyby, které se objeví při běhu programu
 
 Níže máme příklady chyb, které musíme opravit, protože by jinak vždy vedly k předčasnému ukončení běhu programu.
 
