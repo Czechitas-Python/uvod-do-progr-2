@@ -9,8 +9,11 @@ Funkci vyzkoušej se zadáním dvou i jedné hodnoty, např. `total_price(3)`, `
 
 :::solution
 ```py
-def total_price(persons: int, breakfast: int = False) -> int:
-    return persons * (850 + 125 * breakfast)
+def total_price(persons: int, breakfast: bool = False) -> int:
+    if breakfast
+        return persons * (850 + 125)
+    else:
+        return persons * 850
 print(total_price(3))
 print(total_price(2, True))
 ```
