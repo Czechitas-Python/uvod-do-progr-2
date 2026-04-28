@@ -62,7 +62,7 @@ with open("ict_female_change.json", "w", encoding="utf-8") as soubor:
     json.dump(zmena_dle_zeme, soubor, indent=4)
 ```
 
-Nyní nás bude zajímat, jak se změnil absolutní počet pracovníků v ICT sektoru. Žen totiž mohlo přibýt hodně, ale současně přibylo hodně mužů. Použijeme nyní soubor (estat_isoc_sks_itsps_filtered_2.tsv)[estat_isoc_sks_itsps_filtered_2.tsv]. Krása programování spočívá v tom, že na nová data můžeme použít ten samý program. Výsledkem nyní bude změna počtu žen v tisících.
+Nyní nás bude zajímat, jak se změnil absolutní počet pracovníků v ICT sektoru. Žen totiž mohlo přibýt hodně, ale současně přibylo hodně mužů. Použijeme nyní soubor [estat_isoc_sks_itsps_filtered_2.tsv](assets/estat_isoc_sks_itsps_filtered_2.tsv). Krása programování spočívá v tom, že na nová data můžeme použít ten samý program. Výsledkem nyní bude změna počtu žen v tisících.
 
 Stačí upravit první část programu a vložit tam nové jméno souboru. Zbytek programu může zůstat stejný. V seznamu `vyvoj_cr` tentokrát budeme mít počet žen pracujících v ICT v tisících a ve slovníku `zmena_dle_zeme` změnu počtu žen pracujících v ICT opět v tisících.
 
