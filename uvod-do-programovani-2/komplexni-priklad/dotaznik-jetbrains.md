@@ -95,21 +95,28 @@ for radek in radky[1:]:
         if sloupce[i]:
             pocty[nazev] = pocty.get(nazev, 0) + 1
 
-for jazyk in pocty:
-    print(f"{jazyk}: {pocty[jazyk]}")
+def vrat_hodnotu(dvojice):
+    return dvojice[1]
+
+serazene = sorted(pocty.items(), key=vrat_hodnotu, reverse=True)
+
+for poradi, (jazyk, pocet) in enumerate(serazene[:10], start=1):
+    print(f"{poradi}. {jazyk}: {pocet}")
 ```
 
 ```shell
-C++: 4900
-HTML / CSS: 12366
-JavaScript: 14450
-PHP: 4525
-Python: 12786
-SQL: 12159
-Shell scripting: 9754
-TypeScript: 9688
-Java: 10319
-...
+1. JavaScript: 14450
+2. Python: 12786
+3. HTML / CSS: 12366
+4. SQL: 12159
+5. Java: 10319
+6. Shell scripting: 9754
+7. TypeScript: 9688
+8. C#: 7205
+9. C++: 4900
+10. PHP: 4525
 ```
+
+Funkce `vrat_hodnotu` říká `sorted()`, podle které části dvojice má řadit - vrací druhý prvek, tedy počet respondentů. `reverse=True` zajistí sestupné pořadí. Zápis `[:10]` v hlavičce cyklu pak ze seřazeného seznamu vezme prvních deset položek.
 
 Kód funguje stejně, ať má soubor 10 nebo 100 jazykových sloupců - seznam jazyků se vždy sestaví přímo z hlavičky souboru.
