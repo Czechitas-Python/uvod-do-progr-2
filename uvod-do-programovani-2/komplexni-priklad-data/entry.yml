@@ -1,0 +1,9 @@
+title: Komplexní příklad - práce s daty
+lead: Podíváme se na komplexnější příklad práce s daty, ve kterém propojíme probírané koncepty
+sections:
+  - zadani
+  - prvni_cast
+  - prvni_cast_pandas
+  - prvni_cast_modul_csv
+  - dotaznik-jetbrains
+  - cviceni
