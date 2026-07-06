@@ -2,3 +2,6 @@ title: Komplexní příklad - vytvoření API
 lead: Postavíme vlastní webové API pomocí frameworku FastAPI a naučíme se, jak ho volat z Pythonu.
 sections:
   - fastapi-uvod
+  - fastapi-api
+  - fastapi-post
+  - fastapi-testy

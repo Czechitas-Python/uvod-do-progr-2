@@ -1,0 +1,3084 @@
+[
+  {
+    "ico": "22834958",
+    "obchodniJmeno": "Czechitas z.ú.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 19,
+      "nazevKraje": "Hlavní město Praha",
+      "kodObce": 554782,
+      "nazevObce": "Praha",
+      "kodSpravnihoObvodu": 43,
+      "nazevSpravnihoObvodu": "Praha 4",
+      "kodMestskehoObvodu": 43,
+      "nazevMestskehoObvodu": "Praha 4",
+      "kodMestskeCastiObvodu": 500119,
+      "kodUlice": 470945,
+      "nazevMestskeCastiObvodu": "Praha 4",
+      "nazevUlice": "náměstí Bratří Synků",
+      "cisloDomovni": 1748,
+      "kodCastiObce": 490156,
+      "cisloOrientacni": 17,
+      "nazevCastiObce": "Nusle",
+      "kodAdresnihoMista": 79888615,
+      "psc": 14000,
+      "textovaAdresa": "náměstí Bratří Synků 1748/17, Nusle, 14000 Praha 4",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "161",
+    "pravniFormaRos": "161",
+    "financniUrad": "004",
+    "datumVzniku": "2009-09-18",
+    "datumAktualizace": "2026-07-03",
+    "dic": "CZ22834958",
+    "icoId": "22834958",
+    "adresaDorucovaci": {
+      "radekAdresy1": "náměstí Bratří Synků 1748/17",
+      "radekAdresy2": "Nusle",
+      "radekAdresy3": "14000 Praha 4"
+    },
+    "czNace2008": [
+      "9499"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "AKTIVNI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "AKTIVNI",
+      "stavZdrojeSkDph": "NEEXISTUJICI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "AKTIVNI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Czechitas z.ú.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 470945,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "náměstí Bratří Synků",
+              "cisloDomovni": 1748,
+              "kodCastiObce": 490156,
+              "cisloOrientacni": 17,
+              "nazevCastiObce": "Nusle",
+              "kodAdresnihoMista": 79888615,
+              "psc": 14000,
+              "textovaAdresa": "náměstí Bratří Synků 1748/17, Nusle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "161",
+        "pravniFormaRos": "161",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Czechitas z.ú.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 470945,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "náměstí Bratří Synků",
+              "cisloDomovni": 1748,
+              "kodCastiObce": 490156,
+              "cisloOrientacni": 17,
+              "nazevCastiObce": "Nusle",
+              "kodAdresnihoMista": 79888615,
+              "psc": 14000,
+              "textovaAdresa": "náměstí Bratří Synků 1748/17, Nusle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "161",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Czechitas z.ú.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 470945,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "náměstí Bratří Synků",
+              "cisloDomovni": 1748,
+              "kodCastiObce": 490156,
+              "cisloOrientacni": 17,
+              "nazevCastiObce": "Nusle",
+              "kodAdresnihoMista": 79888615,
+              "psc": 14000,
+              "textovaAdresa": "náměstí Bratří Synků 1748/17, Nusle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "161",
+        "datovyZdroj": "rzp"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Czechitas z.ú.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 470945,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "náměstí Bratří Synků",
+              "cisloDomovni": 1748,
+              "kodCastiObce": 490156,
+              "cisloOrientacni": 17,
+              "nazevCastiObce": "Nusle",
+              "kodAdresnihoMista": 79888615,
+              "psc": 14000,
+              "textovaAdresa": "náměstí Bratří Synků 1748/17, Nusle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "161",
+        "spisovaZnacka": "U 1000/MSPH",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "9499"
+    ]
+  },
+  {
+    "ico": "01590952",
+    "obchodniJmeno": "MONETA PARTNERS s.r.o.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 19,
+      "nazevKraje": "Hlavní město Praha",
+      "kodOkresu": 3100,
+      "kodObce": 554782,
+      "nazevObce": "Praha",
+      "kodSpravnihoObvodu": 132,
+      "nazevSpravnihoObvodu": "Praha 13",
+      "kodMestskehoObvodu": 51,
+      "nazevMestskehoObvodu": "Praha 5",
+      "kodMestskeCastiObvodu": 539694,
+      "kodUlice": 503461,
+      "nazevMestskeCastiObvodu": "Praha 13",
+      "nazevUlice": "Borovanského",
+      "cisloDomovni": 2207,
+      "kodCastiObce": 490172,
+      "cisloOrientacni": 4,
+      "nazevCastiObce": "Stodůlky",
+      "kodAdresnihoMista": 22703292,
+      "psc": 15500,
+      "textovaAdresa": "Borovanského 2207/4, Stodůlky, 15500 Praha 5",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "112",
+    "pravniFormaRos": "112",
+    "financniUrad": "005",
+    "datumVzniku": "2013-04-15",
+    "datumAktualizace": "2025-05-11",
+    "dic": "CZ01590952",
+    "icoId": "01590952",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Borovanského 2207/4",
+      "radekAdresy2": "Stodůlky",
+      "radekAdresy3": "15500 Praha 5"
+    },
+    "czNace2008": [
+      "461",
+      "4690",
+      "471",
+      "620",
+      "68310",
+      "6920",
+      "70220",
+      "731",
+      "772",
+      "821",
+      "8559",
+      "931"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "AKTIVNI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "AKTIVNI",
+      "stavZdrojeSkDph": "NEEXISTUJICI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "AKTIVNI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA PARTNERS s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 132,
+              "nazevSpravnihoObvodu": "Praha 13",
+              "kodMestskehoObvodu": 51,
+              "nazevMestskehoObvodu": "Praha 5",
+              "kodMestskeCastiObvodu": 539694,
+              "kodUlice": 503461,
+              "nazevMestskeCastiObvodu": "Praha 13",
+              "nazevUlice": "Borovanského",
+              "cisloDomovni": 2207,
+              "kodCastiObce": 490172,
+              "cisloOrientacni": 4,
+              "nazevCastiObce": "Stodůlky",
+              "kodAdresnihoMista": 22703292,
+              "psc": 15500,
+              "textovaAdresa": "Borovanského 2207/4, Stodůlky, 15500 Praha 5",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "pravniFormaRos": "112",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA PARTNERS s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodOkresu": 3100,
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 132,
+              "nazevSpravnihoObvodu": "Praha 13",
+              "kodMestskehoObvodu": 51,
+              "nazevMestskehoObvodu": "Praha 5",
+              "kodMestskeCastiObvodu": 539694,
+              "kodUlice": 503461,
+              "nazevMestskeCastiObvodu": "Praha 13",
+              "nazevUlice": "Borovanského",
+              "cisloDomovni": 2207,
+              "kodCastiObce": 490172,
+              "cisloOrientacni": 4,
+              "nazevCastiObce": "Stodůlky",
+              "kodAdresnihoMista": 22703292,
+              "psc": 15500,
+              "textovaAdresa": "Borovanského 2207/4, Stodůlky, 15500 Praha 5",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "112",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA PARTNERS s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 51,
+              "nazevSpravnihoObvodu": "Praha 5",
+              "kodMestskehoObvodu": 51,
+              "nazevMestskehoObvodu": "Praha 5",
+              "kodMestskeCastiObvodu": 539694,
+              "kodUlice": 503461,
+              "nazevMestskeCastiObvodu": "Praha 13",
+              "nazevUlice": "Borovanského",
+              "cisloDomovni": 2207,
+              "kodCastiObce": 490172,
+              "cisloOrientacni": 4,
+              "nazevCastiObce": "Stodůlky",
+              "kodAdresnihoMista": 22703292,
+              "psc": 15500,
+              "textovaAdresa": "Borovanského 2207/4, Stodůlky, 15500 Praha 5",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "datovyZdroj": "rzp"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA PARTNERS s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodOkresu": 3100,
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodMestskehoObvodu": 51,
+              "nazevMestskehoObvodu": "Praha 5",
+              "kodMestskeCastiObvodu": 539694,
+              "kodUlice": 503461,
+              "nazevMestskeCastiObvodu": "Praha 13",
+              "nazevUlice": "Borovanského",
+              "cisloDomovni": 2207,
+              "kodCastiObce": 490172,
+              "cisloOrientacni": 4,
+              "nazevCastiObce": "Stodůlky",
+              "kodAdresnihoMista": 22703292,
+              "psc": 15500,
+              "textovaAdresa": "Borovanského 2207/4, Stodůlky, 15500 Praha 5",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "spisovaZnacka": "C 208678/MSPH",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "461",
+      "70200",
+      "731",
+      "82100",
+      "471",
+      "62",
+      "46900",
+      "69200",
+      "772",
+      "931",
+      "68310",
+      "8559"
+    ]
+  },
+  {
+    "ico": "05170443",
+    "obchodniJmeno": "Moneta Sinkovská",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 132,
+      "nazevKraje": "Moravskoslezský kraj",
+      "kodOkresu": 3806,
+      "nazevOkresu": "Opava",
+      "kodObce": 505927,
+      "nazevObce": "Opava",
+      "kodMestskeCastiObvodu": 555321,
+      "kodUlice": 345687,
+      "nazevMestskeCastiObvodu": "Opava (nečleněná část města)",
+      "nazevUlice": "Nákladní",
+      "cisloDomovni": 2418,
+      "kodCastiObce": 490016,
+      "cisloOrientacni": 51,
+      "nazevCastiObce": "Předměstí",
+      "kodAdresnihoMista": 4524721,
+      "psc": 74601,
+      "textovaAdresa": "Nákladní 2418/51, Předměstí, 74601 Opava",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "101",
+    "pravniFormaRos": "100",
+    "financniUrad": "384",
+    "datumVzniku": "2016-06-15",
+    "datumAktualizace": "2025-06-17",
+    "icoId": "05170443",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Nákladní 2418/51",
+      "radekAdresy2": "Předměstí",
+      "radekAdresy3": "74601 Opava"
+    },
+    "czNace2008": [
+      "00",
+      "69200"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "NEEXISTUJICI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "AKTIVNI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "NEEXISTUJICI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Sinkovská",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 132,
+              "nazevKraje": "Moravskoslezský kraj",
+              "kodOkresu": 3806,
+              "nazevOkresu": "Opava",
+              "kodObce": 505927,
+              "nazevObce": "Opava",
+              "kodMestskeCastiObvodu": 555321,
+              "kodUlice": 345687,
+              "nazevMestskeCastiObvodu": "Opava (nečleněná část města)",
+              "nazevUlice": "Nákladní",
+              "cisloDomovni": 2418,
+              "kodCastiObce": 490016,
+              "cisloOrientacni": 51,
+              "nazevCastiObce": "Předměstí",
+              "kodAdresnihoMista": 4524721,
+              "psc": 74601,
+              "textovaAdresa": "Nákladní 2418/51, Předměstí, 74601 Opava",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "101",
+        "pravniFormaRos": "100",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Sinkovská",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 132,
+              "nazevKraje": "Moravskoslezský kraj",
+              "kodOkresu": 3806,
+              "nazevOkresu": "Opava",
+              "kodObce": 505927,
+              "nazevObce": "Opava",
+              "kodMestskeCastiObvodu": 555321,
+              "kodUlice": 345687,
+              "nazevMestskeCastiObvodu": "Opava (nečleněná část města)",
+              "nazevUlice": "Nákladní",
+              "cisloDomovni": 2418,
+              "kodCastiObce": 490016,
+              "cisloOrientacni": 51,
+              "nazevCastiObce": "Předměstí",
+              "kodAdresnihoMista": 4524721,
+              "psc": 74601,
+              "textovaAdresa": "Nákladní 2418/51, Předměstí, 74601 Opava",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "100",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Sinkovská",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 132,
+              "nazevKraje": "Moravskoslezský kraj",
+              "kodOkresu": 3806,
+              "nazevOkresu": "Opava",
+              "kodObce": 505927,
+              "nazevObce": "Opava",
+              "kodMestskeCastiObvodu": 555321,
+              "kodUlice": 345687,
+              "nazevMestskeCastiObvodu": "Opava (nečleněná část města)",
+              "nazevUlice": "Nákladní",
+              "cisloDomovni": 2418,
+              "kodCastiObce": 490016,
+              "cisloOrientacni": 51,
+              "nazevCastiObce": "Předměstí",
+              "kodAdresnihoMista": 4524721,
+              "psc": 74601,
+              "textovaAdresa": "Nákladní 2418/51, Předměstí, 74601 Opava",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "101",
+        "datovyZdroj": "rzp"
+      }
+    ],
+    "czNace": [
+      "00",
+      "69200"
+    ]
+  },
+  {
+    "ico": "10730443",
+    "obchodniJmeno": "Nadace MONETA Clementia",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 19,
+      "nazevKraje": "Hlavní město Praha",
+      "kodObce": 554782,
+      "nazevObce": "Praha",
+      "kodSpravnihoObvodu": 43,
+      "nazevSpravnihoObvodu": "Praha 4",
+      "kodMestskehoObvodu": 43,
+      "nazevMestskehoObvodu": "Praha 4",
+      "kodMestskeCastiObvodu": 500119,
+      "kodUlice": 478652,
+      "nazevMestskeCastiObvodu": "Praha 4",
+      "nazevUlice": "Vyskočilova",
+      "cisloDomovni": 1442,
+      "kodCastiObce": 490130,
+      "cisloOrientacni": 1,
+      "cisloOrientacniPismeno": "b",
+      "nazevCastiObce": "Michle",
+      "kodAdresnihoMista": 25559869,
+      "psc": 14000,
+      "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "117",
+    "pravniFormaRos": "117",
+    "financniUrad": "004",
+    "datumVzniku": "2021-04-01",
+    "datumAktualizace": "2026-05-02",
+    "icoId": "10730443",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Vyskočilova 1442/1b",
+      "radekAdresy2": "Michle",
+      "radekAdresy3": "14000 Praha 4"
+    },
+    "czNace2008": [
+      "9499"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "NEEXISTUJICI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "NEEXISTUJICI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Nadace MONETA Clementia",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "117",
+        "pravniFormaRos": "117",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Nadace MONETA Clementia",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "117",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Nadace MONETA Clementia",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "117",
+        "spisovaZnacka": "N 1927/MSPH",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "9499"
+    ]
+  },
+  {
+    "ico": "22741461",
+    "obchodniJmeno": "Juno Moneta, z.s.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 60,
+      "nazevKraje": "Ústecký kraj",
+      "kodOkresu": 3510,
+      "nazevOkresu": "Ústí nad Labem",
+      "kodObce": 554804,
+      "nazevObce": "Ústí nad Labem",
+      "kodMestskeCastiObvodu": 567892,
+      "kodUlice": 616320,
+      "nazevMestskeCastiObvodu": "Ústí nad Labem-město",
+      "nazevUlice": "Alešova",
+      "cisloDomovni": 895,
+      "kodCastiObce": 175056,
+      "cisloOrientacni": 54,
+      "nazevCastiObce": "Klíše",
+      "kodAdresnihoMista": 17804353,
+      "psc": 40001,
+      "textovaAdresa": "Alešova 895/54, Klíše, 40001 Ústí nad Labem",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "706",
+    "pravniFormaRos": "706",
+    "financniUrad": "214",
+    "datumVzniku": "2012-05-03",
+    "datumAktualizace": "2023-08-10",
+    "icoId": "22741461",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Alešova 895/54",
+      "radekAdresy2": "Klíše",
+      "radekAdresy3": "40001 Ústí nad Labem"
+    },
+    "czNace2008": [
+      "94996"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "NEEXISTUJICI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "NEEXISTUJICI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Juno Moneta, z.s.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 60,
+              "nazevKraje": "Ústecký kraj",
+              "kodOkresu": 3510,
+              "nazevOkresu": "Ústí nad Labem",
+              "kodObce": 554804,
+              "nazevObce": "Ústí nad Labem",
+              "kodMestskeCastiObvodu": 567892,
+              "kodUlice": 616320,
+              "nazevMestskeCastiObvodu": "Ústí nad Labem-město",
+              "nazevUlice": "Alešova",
+              "cisloDomovni": 895,
+              "kodCastiObce": 175056,
+              "cisloOrientacni": 54,
+              "nazevCastiObce": "Klíše",
+              "kodAdresnihoMista": 17804353,
+              "psc": 40001,
+              "textovaAdresa": "Alešova 895/54, Klíše, 40001 Ústí nad Labem",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "706",
+        "pravniFormaRos": "706",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Juno Moneta, z.s.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 60,
+              "nazevKraje": "Ústecký kraj",
+              "kodOkresu": 3510,
+              "nazevOkresu": "Ústí nad Labem",
+              "kodObce": 554804,
+              "nazevObce": "Ústí nad Labem",
+              "kodMestskeCastiObvodu": 567892,
+              "kodUlice": 616320,
+              "nazevMestskeCastiObvodu": "Ústí nad Labem-město",
+              "nazevUlice": "Alešova",
+              "cisloDomovni": 895,
+              "kodCastiObce": 175056,
+              "cisloOrientacni": 54,
+              "nazevCastiObce": "Klíše",
+              "kodAdresnihoMista": 17804353,
+              "psc": 40001,
+              "textovaAdresa": "Alešova 895/54, Klíše, 40001 Ústí nad Labem",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "706",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Juno Moneta, z.s.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 60,
+              "nazevKraje": "Ústecký kraj",
+              "kodOkresu": 3510,
+              "nazevOkresu": "Ústí nad Labem",
+              "kodObce": 554804,
+              "nazevObce": "Ústí nad Labem",
+              "kodMestskeCastiObvodu": 567892,
+              "kodUlice": 616320,
+              "nazevMestskeCastiObvodu": "Ústí nad Labem-město",
+              "nazevUlice": "Alešova",
+              "cisloDomovni": 895,
+              "kodCastiObce": 175056,
+              "cisloOrientacni": 54,
+              "nazevCastiObce": "Klíše",
+              "kodAdresnihoMista": 17804353,
+              "psc": 40001,
+              "textovaAdresa": "Alešova 895/54, Klíše, 40001 Ústí nad Labem",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "706",
+        "spisovaZnacka": "L 8084/KSUL",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "94996"
+    ]
+  },
+  {
+    "ico": "24227625",
+    "obchodniJmeno": "Moneta Investment, s.r.o.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 19,
+      "nazevKraje": "Hlavní město Praha",
+      "kodObce": 554782,
+      "nazevObce": "Praha",
+      "kodSpravnihoObvodu": 51,
+      "nazevSpravnihoObvodu": "Praha 5",
+      "kodMestskehoObvodu": 51,
+      "nazevMestskehoObvodu": "Praha 5",
+      "kodMestskeCastiObvodu": 500143,
+      "kodUlice": 484989,
+      "nazevMestskeCastiObvodu": "Praha 5",
+      "nazevUlice": "Ke Kotlářce",
+      "cisloDomovni": 275,
+      "kodCastiObce": 400319,
+      "cisloOrientacni": 2,
+      "nazevCastiObce": "Košíře",
+      "kodAdresnihoMista": 22020292,
+      "psc": 15000,
+      "textovaAdresa": "Ke Kotlářce 275/2, Košíře, 15000 Praha 5",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "112",
+    "pravniFormaRos": "112",
+    "financniUrad": "005",
+    "datumVzniku": "2012-03-21",
+    "datumAktualizace": "2026-06-20",
+    "dic": "CZ24227625",
+    "icoId": "24227625",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Ke Kotlářce 275/2",
+      "radekAdresy2": "Košíře",
+      "radekAdresy3": "15000 Praha 5"
+    },
+    "czNace2008": [
+      "70220",
+      "620",
+      "46",
+      "00",
+      "47"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "AKTIVNI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "AKTIVNI",
+      "stavZdrojeSkDph": "NEEXISTUJICI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Investment, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 51,
+              "nazevSpravnihoObvodu": "Praha 5",
+              "kodMestskehoObvodu": 51,
+              "nazevMestskehoObvodu": "Praha 5",
+              "kodMestskeCastiObvodu": 500143,
+              "kodUlice": 484989,
+              "nazevMestskeCastiObvodu": "Praha 5",
+              "nazevUlice": "Ke Kotlářce",
+              "cisloDomovni": 275,
+              "kodCastiObce": 400319,
+              "cisloOrientacni": 2,
+              "nazevCastiObce": "Košíře",
+              "kodAdresnihoMista": 22020292,
+              "psc": 15000,
+              "textovaAdresa": "Ke Kotlářce 275/2, Košíře, 15000 Praha 5",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "pravniFormaRos": "112",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Investment, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 51,
+              "nazevSpravnihoObvodu": "Praha 5",
+              "kodMestskehoObvodu": 51,
+              "nazevMestskehoObvodu": "Praha 5",
+              "kodMestskeCastiObvodu": 500143,
+              "kodUlice": 484989,
+              "nazevMestskeCastiObvodu": "Praha 5",
+              "nazevUlice": "Ke Kotlářce",
+              "cisloDomovni": 275,
+              "kodCastiObce": 400319,
+              "cisloOrientacni": 2,
+              "nazevCastiObce": "Košíře",
+              "kodAdresnihoMista": 22020292,
+              "psc": 15000,
+              "textovaAdresa": "Ke Kotlářce 275/2, Košíře, 15000 Praha 5",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "112",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Investment, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 51,
+              "nazevSpravnihoObvodu": "Praha 5",
+              "kodMestskehoObvodu": 51,
+              "nazevMestskehoObvodu": "Praha 5",
+              "kodMestskeCastiObvodu": 500143,
+              "kodUlice": 484989,
+              "nazevMestskeCastiObvodu": "Praha 5",
+              "nazevUlice": "Ke Kotlářce",
+              "cisloDomovni": 275,
+              "kodCastiObce": 400319,
+              "cisloOrientacni": 2,
+              "nazevCastiObce": "Košíře",
+              "kodAdresnihoMista": 22020292,
+              "psc": 15000,
+              "textovaAdresa": "Ke Kotlářce 275/2, Košíře, 15000 Praha 5",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "datovyZdroj": "rzp"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Investment, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 51,
+              "nazevSpravnihoObvodu": "Praha 5",
+              "kodMestskehoObvodu": 51,
+              "nazevMestskehoObvodu": "Praha 5",
+              "kodMestskeCastiObvodu": 500143,
+              "kodUlice": 484989,
+              "nazevMestskeCastiObvodu": "Praha 5",
+              "nazevUlice": "Ke Kotlářce",
+              "cisloDomovni": 275,
+              "kodCastiObce": 400319,
+              "cisloOrientacni": 2,
+              "nazevCastiObce": "Košíře",
+              "kodAdresnihoMista": 22020292,
+              "psc": 15000,
+              "textovaAdresa": "Ke Kotlářce 275/2, Košíře, 15000 Praha 5",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "spisovaZnacka": "C 190582/MSPH",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "70200",
+      "46",
+      "47",
+      "00",
+      "62"
+    ]
+  },
+  {
+    "ico": "25355163",
+    "obchodniJmeno": "Moneta SPV, s. r. o. \"v likvidaci\"",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 124,
+      "nazevKraje": "Olomoucký kraj",
+      "kodOkresu": 3805,
+      "nazevOkresu": "Olomouc",
+      "kodObce": 500496,
+      "nazevObce": "Olomouc",
+      "kodUlice": 330744,
+      "nazevUlice": "Rokycanova",
+      "cisloDomovni": 421,
+      "kodCastiObce": 413828,
+      "cisloOrientacni": 40,
+      "nazevCastiObce": "Nové Sady",
+      "kodAdresnihoMista": 23315652,
+      "psc": 77900,
+      "textovaAdresa": "Rokycanova 421/40, Nové Sady, 77900 Olomouc",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "112",
+    "pravniFormaRos": "112",
+    "financniUrad": "379",
+    "datumVzniku": "1996-07-26",
+    "datumAktualizace": "2025-12-24",
+    "icoId": "25355163",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Rokycanova 421/40",
+      "radekAdresy2": "Nové Sady",
+      "radekAdresy3": "77900 Olomouc"
+    },
+    "czNace2008": [
+      "431",
+      "461",
+      "46900",
+      "471",
+      "00"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "AKTIVNI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "NEEXISTUJICI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta SPV, s. r. o. \"v likvidaci\"",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 124,
+              "nazevKraje": "Olomoucký kraj",
+              "kodOkresu": 3805,
+              "nazevOkresu": "Olomouc",
+              "kodObce": 500496,
+              "nazevObce": "Olomouc",
+              "kodUlice": 330744,
+              "nazevUlice": "Rokycanova",
+              "cisloDomovni": 421,
+              "kodCastiObce": 413828,
+              "cisloOrientacni": 40,
+              "nazevCastiObce": "Nové Sady",
+              "kodAdresnihoMista": 23315652,
+              "psc": 77900,
+              "textovaAdresa": "Rokycanova 421/40, Nové Sady, 77900 Olomouc",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "pravniFormaRos": "112",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta SPV, s. r. o. \"v likvidaci\"",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 124,
+              "nazevKraje": "Olomoucký kraj",
+              "kodOkresu": 3805,
+              "nazevOkresu": "Olomouc",
+              "kodObce": 500496,
+              "nazevObce": "Olomouc",
+              "kodUlice": 330744,
+              "nazevUlice": "Rokycanova",
+              "cisloDomovni": 421,
+              "kodCastiObce": 413828,
+              "cisloOrientacni": 40,
+              "nazevCastiObce": "Nové Sady",
+              "kodAdresnihoMista": 23315652,
+              "psc": 77900,
+              "textovaAdresa": "Rokycanova 421/40, Nové Sady, 77900 Olomouc",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "112",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta SPV, s.r.o. \"v likvidaci\"",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 124,
+              "nazevKraje": "Olomoucký kraj",
+              "kodOkresu": 3805,
+              "nazevOkresu": "Olomouc",
+              "kodObce": 500496,
+              "nazevObce": "Olomouc",
+              "kodUlice": 330744,
+              "nazevUlice": "Rokycanova",
+              "cisloDomovni": 421,
+              "kodCastiObce": 413828,
+              "cisloOrientacni": 40,
+              "nazevCastiObce": "Nové Sady",
+              "kodAdresnihoMista": 23315652,
+              "psc": 77900,
+              "textovaAdresa": "Rokycanova 421/40, Nové Sady, 77900 Olomouc",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "datovyZdroj": "rzp"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta SPV, s. r. o. \"v likvidaci\"",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 124,
+              "nazevKraje": "Olomoucký kraj",
+              "kodOkresu": 3805,
+              "nazevOkresu": "Olomouc",
+              "kodObce": 500496,
+              "nazevObce": "Olomouc",
+              "kodUlice": 330744,
+              "nazevUlice": "Rokycanova",
+              "cisloDomovni": 421,
+              "kodCastiObce": 413828,
+              "cisloOrientacni": 40,
+              "nazevCastiObce": "Nové Sady",
+              "kodAdresnihoMista": 23315652,
+              "psc": 77900,
+              "textovaAdresa": "Rokycanova 421/40, Nové Sady, 77900 Olomouc",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "spisovaZnacka": "C 9794/KSOS",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "471",
+      "461",
+      "431",
+      "46900",
+      "00"
+    ]
+  },
+  {
+    "ico": "25672720",
+    "obchodniJmeno": "MONETA Money Bank, a.s.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 19,
+      "nazevKraje": "Hlavní město Praha",
+      "kodObce": 554782,
+      "nazevObce": "Praha",
+      "kodSpravnihoObvodu": 43,
+      "nazevSpravnihoObvodu": "Praha 4",
+      "kodMestskehoObvodu": 43,
+      "nazevMestskehoObvodu": "Praha 4",
+      "kodMestskeCastiObvodu": 500119,
+      "kodUlice": 478652,
+      "nazevMestskeCastiObvodu": "Praha 4",
+      "nazevUlice": "Vyskočilova",
+      "cisloDomovni": 1442,
+      "kodCastiObce": 490130,
+      "cisloOrientacni": 1,
+      "cisloOrientacniPismeno": "b",
+      "nazevCastiObce": "Michle",
+      "kodAdresnihoMista": 25559869,
+      "psc": 14000,
+      "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "121",
+    "pravniFormaRos": "121",
+    "financniUrad": "013",
+    "datumVzniku": "1998-06-09",
+    "datumAktualizace": "2026-06-10",
+    "icoId": "25672720",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Vyskočilova 1442/1b",
+      "radekAdresy2": "Michle",
+      "radekAdresy3": "14000 Praha 4"
+    },
+    "czNace2008": [
+      "64190",
+      "649",
+      "64910",
+      "661"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "NEEXISTUJICI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "AKTIVNI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Money Bank, a.s.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "121",
+        "pravniFormaRos": "121",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Money Bank, a.s.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "121",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Money Bank, a.s.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "121",
+        "spisovaZnacka": "B 5403/MSPH",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "64910",
+      "661",
+      "649",
+      "64190"
+    ],
+    "subRegistrSzr": "szr",
+    "dicSkDph": "CZ699003117"
+  },
+  {
+    "ico": "26424720",
+    "obchodniJmeno": "Moneta Praha s.r.o.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 19,
+      "nazevKraje": "Hlavní město Praha",
+      "kodOkresu": 3100,
+      "kodObce": 554782,
+      "nazevObce": "Praha",
+      "kodSpravnihoObvodu": 35,
+      "nazevSpravnihoObvodu": "Praha 3",
+      "kodMestskehoObvodu": 35,
+      "nazevMestskehoObvodu": "Praha 3",
+      "kodMestskeCastiObvodu": 500097,
+      "kodUlice": 469289,
+      "nazevMestskeCastiObvodu": "Praha 3",
+      "nazevUlice": "Slavíkova",
+      "cisloDomovni": 2729,
+      "kodCastiObce": 490261,
+      "cisloOrientacni": 28,
+      "nazevCastiObce": "Žižkov",
+      "kodAdresnihoMista": 22723625,
+      "psc": 13000,
+      "textovaAdresa": "Slavíkova 2729/28, Žižkov, 13000 Praha 3",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "112",
+    "pravniFormaRos": "112",
+    "financniUrad": "003",
+    "datumVzniku": "2001-01-04",
+    "datumAktualizace": "2025-12-24",
+    "icoId": "26424720",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Slavíkova 2729/28",
+      "radekAdresy2": "Žižkov",
+      "radekAdresy3": "13000 Praha 3"
+    },
+    "czNace2008": [
+      "46190"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "AKTIVNI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "NEEXISTUJICI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Praha s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 35,
+              "nazevSpravnihoObvodu": "Praha 3",
+              "kodMestskehoObvodu": 35,
+              "nazevMestskehoObvodu": "Praha 3",
+              "kodMestskeCastiObvodu": 500097,
+              "kodUlice": 469289,
+              "nazevMestskeCastiObvodu": "Praha 3",
+              "nazevUlice": "Slavíkova",
+              "cisloDomovni": 2729,
+              "kodCastiObce": 490261,
+              "cisloOrientacni": 28,
+              "nazevCastiObce": "Žižkov",
+              "kodAdresnihoMista": 22723625,
+              "psc": 13000,
+              "textovaAdresa": "Slavíkova 2729/28, Žižkov, 13000 Praha 3",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "pravniFormaRos": "112",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Praha s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodOkresu": 3100,
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 35,
+              "nazevSpravnihoObvodu": "Praha 3",
+              "kodMestskehoObvodu": 35,
+              "nazevMestskehoObvodu": "Praha 3",
+              "kodMestskeCastiObvodu": 500097,
+              "kodUlice": 469289,
+              "nazevMestskeCastiObvodu": "Praha 3",
+              "nazevUlice": "Slavíkova",
+              "cisloDomovni": 2729,
+              "kodCastiObce": 490261,
+              "cisloOrientacni": 28,
+              "nazevCastiObce": "Žižkov",
+              "kodAdresnihoMista": 22723625,
+              "psc": 13000,
+              "textovaAdresa": "Slavíkova 2729/28, Žižkov, 13000 Praha 3",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "112",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Praha s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 35,
+              "nazevSpravnihoObvodu": "Praha 3",
+              "kodMestskehoObvodu": 35,
+              "nazevMestskehoObvodu": "Praha 3",
+              "kodMestskeCastiObvodu": 500097,
+              "kodUlice": 469289,
+              "nazevMestskeCastiObvodu": "Praha 3",
+              "nazevUlice": "Slavíkova",
+              "cisloDomovni": 2729,
+              "kodCastiObce": 490261,
+              "cisloOrientacni": 28,
+              "nazevCastiObce": "Žižkov",
+              "kodAdresnihoMista": 22723625,
+              "psc": 13000,
+              "textovaAdresa": "Slavíkova 2729/28, Žižkov, 13000 Praha 3",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "datovyZdroj": "rzp"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta Praha s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodOkresu": 3100,
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodMestskehoObvodu": 35,
+              "nazevMestskehoObvodu": "Praha 3",
+              "kodMestskeCastiObvodu": 500097,
+              "kodUlice": 469289,
+              "nazevMestskeCastiObvodu": "Praha 3",
+              "nazevUlice": "Slavíkova",
+              "cisloDomovni": 2729,
+              "kodCastiObce": 490261,
+              "cisloOrientacni": 28,
+              "nazevCastiObce": "Žižkov",
+              "kodAdresnihoMista": 22723625,
+              "psc": 13000,
+              "textovaAdresa": "Slavíkova 2729/28, Žižkov, 13000 Praha 3",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "spisovaZnacka": "C 81222/MSPH",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "46190"
+    ]
+  },
+  {
+    "ico": "28660463",
+    "obchodniJmeno": "Moneta holding s.r.o.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 132,
+      "nazevKraje": "Moravskoslezský kraj",
+      "kodOkresu": 3807,
+      "nazevOkresu": "Ostrava-město",
+      "kodObce": 554821,
+      "nazevObce": "Ostrava",
+      "kodMestskeCastiObvodu": 554286,
+      "kodUlice": 357561,
+      "nazevMestskeCastiObvodu": "Mariánské Hory a Hulváky",
+      "nazevUlice": "Ladislava Ševčíka",
+      "cisloDomovni": 420,
+      "kodCastiObce": 414115,
+      "cisloOrientacni": 26,
+      "nazevCastiObce": "Hulváky",
+      "kodAdresnihoMista": 3321533,
+      "psc": 70900,
+      "textovaAdresa": "Ladislava Ševčíka 420/26, Hulváky, 70900 Ostrava",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "112",
+    "pravniFormaRos": "112",
+    "financniUrad": "390",
+    "datumVzniku": "2011-07-01",
+    "datumAktualizace": "2026-02-11",
+    "icoId": "28660463",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Ladislava Ševčíka 420/26",
+      "radekAdresy2": "Hulváky",
+      "radekAdresy3": "70900 Ostrava"
+    },
+    "czNace2008": [
+      "55",
+      "G",
+      "43120",
+      "6820",
+      "00",
+      "64929",
+      "73110",
+      "82110"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "AKTIVNI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "NEEXISTUJICI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta holding s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 132,
+              "nazevKraje": "Moravskoslezský kraj",
+              "kodOkresu": 3807,
+              "nazevOkresu": "Ostrava-město",
+              "kodObce": 554821,
+              "nazevObce": "Ostrava",
+              "kodMestskeCastiObvodu": 554286,
+              "kodUlice": 357561,
+              "nazevMestskeCastiObvodu": "Mariánské Hory a Hulváky",
+              "nazevUlice": "Ladislava Ševčíka",
+              "cisloDomovni": 420,
+              "kodCastiObce": 414115,
+              "cisloOrientacni": 26,
+              "nazevCastiObce": "Hulváky",
+              "kodAdresnihoMista": 3321533,
+              "psc": 70900,
+              "textovaAdresa": "Ladislava Ševčíka 420/26, Hulváky, 70900 Ostrava",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "pravniFormaRos": "112",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta holding s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 132,
+              "nazevKraje": "Moravskoslezský kraj",
+              "kodOkresu": 3807,
+              "nazevOkresu": "Ostrava-město",
+              "kodObce": 554821,
+              "nazevObce": "Ostrava",
+              "kodMestskeCastiObvodu": 554286,
+              "kodUlice": 357561,
+              "nazevMestskeCastiObvodu": "Mariánské Hory a Hulváky",
+              "nazevUlice": "Ladislava Ševčíka",
+              "cisloDomovni": 420,
+              "kodCastiObce": 414115,
+              "cisloOrientacni": 26,
+              "nazevCastiObce": "Hulváky",
+              "kodAdresnihoMista": 3321533,
+              "psc": 70900,
+              "textovaAdresa": "Ladislava Ševčíka 420/26, Hulváky, 70900 Ostrava",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "112",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta holding s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 132,
+              "nazevKraje": "Moravskoslezský kraj",
+              "kodOkresu": 3807,
+              "nazevOkresu": "Ostrava-město",
+              "kodObce": 554821,
+              "nazevObce": "Ostrava",
+              "kodMestskeCastiObvodu": 554286,
+              "kodUlice": 357561,
+              "nazevMestskeCastiObvodu": "Mariánské Hory a Hulváky",
+              "nazevUlice": "Ladislava Ševčíka",
+              "cisloDomovni": 420,
+              "kodCastiObce": 414115,
+              "cisloOrientacni": 26,
+              "nazevCastiObce": "Hulváky",
+              "kodAdresnihoMista": 3321533,
+              "psc": 70900,
+              "textovaAdresa": "Ladislava Ševčíka 420/26, Hulváky, 70900 Ostrava",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "datovyZdroj": "rzp"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "Moneta holding s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 132,
+              "nazevKraje": "Moravskoslezský kraj",
+              "kodOkresu": 3807,
+              "nazevOkresu": "Ostrava-město",
+              "kodObce": 554821,
+              "nazevObce": "Ostrava",
+              "kodMestskeCastiObvodu": 554286,
+              "kodUlice": 357561,
+              "nazevMestskeCastiObvodu": "Mariánské Hory a Hulváky",
+              "nazevUlice": "Ladislava Ševčíka",
+              "cisloDomovni": 420,
+              "kodCastiObce": 414115,
+              "cisloOrientacni": 26,
+              "nazevCastiObce": "Hulváky",
+              "kodAdresnihoMista": 3321533,
+              "psc": 70900,
+              "textovaAdresa": "Ladislava Ševčíka 420/26, Hulváky, 70900 Ostrava",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "spisovaZnacka": "C 37599/KSOS",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "00",
+      "G",
+      "73110",
+      "55",
+      "68200",
+      "43120",
+      "64929",
+      "82100"
+    ]
+  },
+  {
+    "ico": "29242746",
+    "obchodniJmeno": "JK MONETA, s.r.o.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 116,
+      "nazevKraje": "Jihomoravský kraj",
+      "kodOkresu": 3702,
+      "nazevOkresu": "Brno-město",
+      "kodObce": 582786,
+      "nazevObce": "Brno",
+      "kodMestskeCastiObvodu": 550973,
+      "kodUlice": 23043,
+      "nazevMestskeCastiObvodu": "Brno-střed",
+      "nazevUlice": "Dvořákova",
+      "cisloDomovni": 44,
+      "kodCastiObce": 411582,
+      "cisloOrientacni": 14,
+      "nazevCastiObce": "Brno-město",
+      "kodAdresnihoMista": 19093730,
+      "psc": 60200,
+      "textovaAdresa": "Dvořákova 44/14, Brno-město, 60200 Brno",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "112",
+    "pravniFormaRos": "112",
+    "financniUrad": "288",
+    "datumVzniku": "2010-10-06",
+    "datumAktualizace": "2024-07-11",
+    "icoId": "29242746",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Dvořákova 44/14",
+      "radekAdresy2": "Brno-město",
+      "radekAdresy3": "60200 Brno"
+    },
+    "czNace2008": [
+      "461",
+      "64929",
+      "702",
+      "731",
+      "821",
+      "G"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "AKTIVNI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "NEEXISTUJICI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "JK MONETA, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 116,
+              "nazevKraje": "Jihomoravský kraj",
+              "kodOkresu": 3702,
+              "nazevOkresu": "Brno-město",
+              "kodObce": 582786,
+              "nazevObce": "Brno",
+              "kodMestskeCastiObvodu": 550973,
+              "kodUlice": 23043,
+              "nazevMestskeCastiObvodu": "Brno-střed",
+              "nazevUlice": "Dvořákova",
+              "cisloDomovni": 44,
+              "kodCastiObce": 411582,
+              "cisloOrientacni": 14,
+              "nazevCastiObce": "Brno-město",
+              "kodAdresnihoMista": 19093730,
+              "psc": 60200,
+              "textovaAdresa": "Dvořákova 44/14, Brno-město, 60200 Brno",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "pravniFormaRos": "112",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "JK MONETA, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 116,
+              "nazevKraje": "Jihomoravský kraj",
+              "kodOkresu": 3702,
+              "nazevOkresu": "Brno-město",
+              "kodObce": 582786,
+              "nazevObce": "Brno",
+              "kodMestskeCastiObvodu": 550973,
+              "kodUlice": 23043,
+              "nazevMestskeCastiObvodu": "Brno-střed",
+              "nazevUlice": "Dvořákova",
+              "cisloDomovni": 44,
+              "kodCastiObce": 411582,
+              "cisloOrientacni": 14,
+              "nazevCastiObce": "Brno-město",
+              "kodAdresnihoMista": 19093730,
+              "psc": 60200,
+              "textovaAdresa": "Dvořákova 44/14, Brno-město, 60200 Brno",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "112",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "JK MONETA, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 116,
+              "nazevKraje": "Jihomoravský kraj",
+              "kodOkresu": 3702,
+              "nazevOkresu": "Brno-město",
+              "kodObce": 582786,
+              "nazevObce": "Brno",
+              "kodMestskeCastiObvodu": 550973,
+              "kodUlice": 23043,
+              "nazevMestskeCastiObvodu": "Brno-střed",
+              "nazevUlice": "Dvořákova",
+              "cisloDomovni": 44,
+              "kodCastiObce": 411582,
+              "cisloOrientacni": 14,
+              "nazevCastiObce": "Brno-město",
+              "kodAdresnihoMista": 19093730,
+              "psc": 60200,
+              "textovaAdresa": "Dvořákova 44/14, Brno-město, 60200 Brno",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "datovyZdroj": "rzp"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "JK MONETA, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 116,
+              "nazevKraje": "Jihomoravský kraj",
+              "kodOkresu": 3702,
+              "nazevOkresu": "Brno-město",
+              "kodObce": 582786,
+              "nazevObce": "Brno",
+              "kodMestskeCastiObvodu": 550973,
+              "kodUlice": 23043,
+              "nazevMestskeCastiObvodu": "Brno-střed",
+              "nazevUlice": "Dvořákova",
+              "cisloDomovni": 44,
+              "kodCastiObce": 411582,
+              "cisloOrientacni": 14,
+              "nazevCastiObce": "Brno-město",
+              "kodAdresnihoMista": 19093730,
+              "psc": 60200,
+              "textovaAdresa": "Dvořákova 44/14, Brno-město, 60200 Brno",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "spisovaZnacka": "C 67944/KSBR",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "64929",
+      "461",
+      "70200",
+      "731",
+      "82100",
+      "G"
+    ]
+  },
+  {
+    "ico": "47115289",
+    "obchodniJmeno": "MONETA Stavební Spořitelna, a.s.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 19,
+      "nazevKraje": "Hlavní město Praha",
+      "kodObce": 554782,
+      "nazevObce": "Praha",
+      "kodSpravnihoObvodu": 43,
+      "nazevSpravnihoObvodu": "Praha 4",
+      "kodMestskehoObvodu": 43,
+      "nazevMestskehoObvodu": "Praha 4",
+      "kodMestskeCastiObvodu": 500119,
+      "kodUlice": 478652,
+      "nazevMestskeCastiObvodu": "Praha 4",
+      "nazevUlice": "Vyskočilova",
+      "cisloDomovni": 1442,
+      "kodCastiObce": 490130,
+      "cisloOrientacni": 1,
+      "cisloOrientacniPismeno": "b",
+      "nazevCastiObce": "Michle",
+      "kodAdresnihoMista": 25559869,
+      "psc": 14000,
+      "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "121",
+    "pravniFormaRos": "121",
+    "financniUrad": "013",
+    "datumVzniku": "1992-09-28",
+    "datumAktualizace": "2026-06-26",
+    "icoId": "47115289",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Vyskočilova 1442/1b",
+      "radekAdresy2": "Michle",
+      "radekAdresy3": "14000 Praha 4"
+    },
+    "czNace2008": [
+      "64190"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "HISTORICKY",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "AKTIVNI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Stavební Spořitelna, a.s.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "121",
+        "pravniFormaRos": "121",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Stavební Spořitelna, a.s.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "121",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Stavební Spořitelna, a.s.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "121",
+        "spisovaZnacka": "B 1714/MSPH",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "64190"
+    ],
+    "dicSkDph": "CZ699003117"
+  },
+  {
+    "ico": "60112743",
+    "obchodniJmeno": "MONETA Auto, s.r.o.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 19,
+      "nazevKraje": "Hlavní město Praha",
+      "kodObce": 554782,
+      "nazevObce": "Praha",
+      "kodSpravnihoObvodu": 43,
+      "nazevSpravnihoObvodu": "Praha 4",
+      "kodMestskehoObvodu": 43,
+      "nazevMestskehoObvodu": "Praha 4",
+      "kodMestskeCastiObvodu": 500119,
+      "kodUlice": 478652,
+      "nazevMestskeCastiObvodu": "Praha 4",
+      "nazevUlice": "Vyskočilova",
+      "cisloDomovni": 1442,
+      "kodCastiObce": 490130,
+      "cisloOrientacni": 1,
+      "cisloOrientacniPismeno": "b",
+      "nazevCastiObce": "Michle",
+      "kodAdresnihoMista": 25559869,
+      "psc": 14000,
+      "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "112",
+    "pravniFormaRos": "112",
+    "financniUrad": "013",
+    "datumVzniku": "1994-05-10",
+    "datumAktualizace": "2026-06-11",
+    "icoId": "60112743",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Vyskočilova 1442/1b",
+      "radekAdresy2": "Michle",
+      "radekAdresy3": "14000 Praha 4"
+    },
+    "czNace2008": [
+      "46900",
+      "620",
+      "63",
+      "64910",
+      "662",
+      "68310",
+      "702",
+      "73120"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "AKTIVNI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "AKTIVNI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Auto, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "pravniFormaRos": "112",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Auto, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "112",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Auto, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "datovyZdroj": "rzp"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Auto, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "spisovaZnacka": "C 168410/MSPH",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "63",
+      "62",
+      "70200",
+      "68310",
+      "46900",
+      "64910",
+      "662",
+      "73120"
+    ],
+    "subRegistrSzr": "szr",
+    "dicSkDph": "CZ699003117"
+  },
+  {
+    "ico": "60751606",
+    "obchodniJmeno": "MONETA Leasing, s.r.o.",
+    "sidlo": {
+      "kodStatu": "CZ",
+      "nazevStatu": "Česká republika",
+      "kodKraje": 19,
+      "nazevKraje": "Hlavní město Praha",
+      "kodObce": 554782,
+      "nazevObce": "Praha",
+      "kodSpravnihoObvodu": 43,
+      "nazevSpravnihoObvodu": "Praha 4",
+      "kodMestskehoObvodu": 43,
+      "nazevMestskehoObvodu": "Praha 4",
+      "kodMestskeCastiObvodu": 500119,
+      "kodUlice": 478652,
+      "nazevMestskeCastiObvodu": "Praha 4",
+      "nazevUlice": "Vyskočilova",
+      "cisloDomovni": 1442,
+      "kodCastiObce": 490130,
+      "cisloOrientacni": 1,
+      "cisloOrientacniPismeno": "b",
+      "nazevCastiObce": "Michle",
+      "kodAdresnihoMista": 25559869,
+      "psc": 14000,
+      "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+      "standardizaceAdresy": true,
+      "typCisloDomovni": 1
+    },
+    "pravniForma": "112",
+    "pravniFormaRos": "112",
+    "financniUrad": "013",
+    "datumVzniku": "1995-06-28",
+    "datumAktualizace": "2026-03-05",
+    "icoId": "60751606",
+    "adresaDorucovaci": {
+      "radekAdresy1": "Vyskočilova 1442/1b",
+      "radekAdresy2": "Michle",
+      "radekAdresy3": "14000 Praha 4"
+    },
+    "czNace2008": [
+      "461",
+      "47190",
+      "64929",
+      "6820",
+      "68320",
+      "70100",
+      "74",
+      "772",
+      "77290",
+      "82110"
+    ],
+    "seznamRegistraci": {
+      "stavZdrojeRos": "AKTIVNI",
+      "stavZdrojeVr": "AKTIVNI",
+      "stavZdrojeRes": "AKTIVNI",
+      "stavZdrojeRzp": "AKTIVNI",
+      "stavZdrojeNrpzs": "NEEXISTUJICI",
+      "stavZdrojeRpsh": "NEEXISTUJICI",
+      "stavZdrojeRcns": "NEEXISTUJICI",
+      "stavZdrojeSzr": "NEEXISTUJICI",
+      "stavZdrojeDph": "NEEXISTUJICI",
+      "stavZdrojeSkDph": "AKTIVNI",
+      "stavZdrojeSd": "NEEXISTUJICI",
+      "stavZdrojeIr": "NEEXISTUJICI",
+      "stavZdrojeCeu": "NEEXISTUJICI",
+      "stavZdrojeRs": "NEEXISTUJICI",
+      "stavZdrojeRed": "NEEXISTUJICI",
+      "stavZdrojeMonitor": "NEEXISTUJICI"
+    },
+    "primarniZdroj": "ros",
+    "dalsiUdaje": [
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Leasing, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "pravniFormaRos": "112",
+        "datovyZdroj": "res"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Leasing, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniFormaRos": "112",
+        "datovyZdroj": "ros"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Leasing, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "datovyZdroj": "rzp"
+      },
+      {
+        "obchodniJmeno": [
+          {
+            "obchodniJmeno": "MONETA Leasing, s.r.o.",
+            "primarniZaznam": true
+          }
+        ],
+        "sidlo": [
+          {
+            "sidlo": {
+              "kodStatu": "CZ",
+              "nazevStatu": "Česká republika",
+              "kodKraje": 19,
+              "nazevKraje": "Hlavní město Praha",
+              "kodObce": 554782,
+              "nazevObce": "Praha",
+              "kodSpravnihoObvodu": 43,
+              "nazevSpravnihoObvodu": "Praha 4",
+              "kodMestskehoObvodu": 43,
+              "nazevMestskehoObvodu": "Praha 4",
+              "kodMestskeCastiObvodu": 500119,
+              "kodUlice": 478652,
+              "nazevMestskeCastiObvodu": "Praha 4",
+              "nazevUlice": "Vyskočilova",
+              "cisloDomovni": 1442,
+              "kodCastiObce": 490130,
+              "cisloOrientacni": 1,
+              "cisloOrientacniPismeno": "b",
+              "nazevCastiObce": "Michle",
+              "kodAdresnihoMista": 25559869,
+              "psc": 14000,
+              "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+              "standardizaceAdresy": true,
+              "typCisloDomovni": 1
+            },
+            "primarniZaznam": true
+          }
+        ],
+        "pravniForma": "112",
+        "spisovaZnacka": "C 322797/MSPH",
+        "datovyZdroj": "vr"
+      }
+    ],
+    "czNace": [
+      "74",
+      "772",
+      "70100",
+      "77220",
+      "461",
+      "82100",
+      "47120",
+      "68200",
+      "64929",
+      "68320"
+    ],
+    "dicSkDph": "CZ699003117"
+  }
+]
