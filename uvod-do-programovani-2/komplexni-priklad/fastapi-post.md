@@ -30,6 +30,9 @@ FastAPI pak třídu použije k automatické validaci - pokud tělo requestu nebu
 Přidáme endpoint, který přijme filtr a vrátí všechny subjekty, jejichž obchodní jméno obsahuje hledaný řetězec. Parametr funkce pojmenujeme `filtr` a typem bude naše třída `SubjektFiltr` - FastAPI z toho pozná, že data má číst z těla requestu:
 
 ```py
+def ico_subjektu(subjekt):
+    return subjekt["ico"]
+
 @app.post("/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/vyhledat")
 def vyhledej_subjekty(filtr: SubjektFiltr):
     """Vyhledá subjekty, které mají zadaný řetězec v obchodním jménu."""
@@ -39,7 +42,7 @@ def vyhledej_subjekty(filtr: SubjektFiltr):
         if hledane in subjekt["obchodniJmeno"].lower():
             nalezene.append(subjekt)
 
-    nalezene.sort(key=lambda subjekt: subjekt["ico"])
+    nalezene.sort(key=ico_subjektu)
     return {
         "pocetCelkem": len(nalezene),
         "ekonomickeSubjekty": nalezene,
