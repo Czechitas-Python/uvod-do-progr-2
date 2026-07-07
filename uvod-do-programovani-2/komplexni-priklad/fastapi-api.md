@@ -35,6 +35,8 @@ with open(f"{data_dir}/ciselnik_pravni_forma.json", encoding="utf-8") as f:
     ciselnik_pravni_forma = json.load(f)
 ```
 
+Data [ekonomicke_subjekty.json](assets/ekonomicke_subjekty.json), [ciselnik_pravni_forma.json](assets/ciselnik_pravni_forma.json).
+
 Kód pro načtení dat píšeme na úrovni modulu - mimo jakoukoliv funkci. Python ho proto spustí jednou při startu serveru, a data pak zůstanou uložená v proměnných `subjekty` a `ciselnik_pravni_forma` po celou dobu běhu aplikace.
 
 **Poznámka:** V reálném API by data nebyla načtená ze souborů do paměti, ale uložená v databázi. Do databáze by server posílal dotazy při každém příchozím requestu a vracel jen ta data, která si klient žádá. My jsme v kurzu s databázemi nepracovali, proto volíme tento jednodušší přístup. Má ale zásadní omezení: skutečný obchodní rejstřík obsahuje záznamy o milionech subjektů - ta by se do paměti běžného počítače prostě nevešla.
